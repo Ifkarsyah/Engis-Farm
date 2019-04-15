@@ -12,25 +12,22 @@ public class Bebek extends FarmAnimal {
 
     @Override
     public Product getProduct() {
-        isProductReady = false;
         return new TelurBebek();
     }
 
     @Override
     public Product getAnimalMeat() {
-        isProductReady = false;
         return new DagingBebek();
     }
 
     @Override
     public void makeSound() {
-        System.out.println(name + ": Wikwik!");
+        System.out.println(name + ": Wik, wik!");
     }
 
     @Override
     public char render() {
-        return 'b';
+        return 'B';
     }
-
 
 }

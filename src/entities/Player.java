@@ -12,27 +12,17 @@ import java.util.LinkedList;
 
 public class Player extends Renderable {
     private Point point;
-    private int water;
-    private int money;
+    private int water = 20;
+    private int money = 0;
     private LinkedList<Product> inventory;
 
-    public Player(Point point, int water, int money) {
+    public Player(Point point) {
         this.point = point;
-        this.water = water;
-        this.money = money;
         this.inventory = new LinkedList<>();
     }
 
     public Point getPoint() {
         return point;
-    }
-
-    public int getWater() {
-        return water;
-    }
-
-    public int getMoney() {
-        return money;
     }
 
     public LinkedList<Product> getInventory() {
@@ -46,20 +36,24 @@ public class Player extends Renderable {
 
     public void interact(Well well) {
         water += well.waterCapacity;
-        if (water > 100) water = 100;
+        if (water > 100)
+            water = 100;
     }
 
     public void interact(Truck truck) {
-        while (!inventory.isEmpty()) {
-            Product product = inventory.removeFirst();
-            money += product.price;
-        }
+        while (!inventory.isEmpty())
+            money += inventory.removeFirst().price;
         truck.resetCooldownTime();
     }
 
     public void interact(FarmAnimal farmAnimal) {
         try {
-            inventory.add(farmAnimal.getProduct());
+            if (farmAnimal.isProductReady) {
+                inventory.add(farmAnimal.getProduct());
+                farmAnimal.isProductReady = false;
+            } else {
+                System.err.println("Product is not ready");
+            }
         } catch (Exception e) {
             System.err.println("Cannot interact with this animal.");
         }
@@ -67,7 +61,12 @@ public class Player extends Renderable {
 
     public void kill(FarmAnimal farmAnimal) {
         try {
-            inventory.add(farmAnimal.getAnimalMeat());
+            if (farmAnimal.isProductReady) {
+                inventory.add(farmAnimal.getAnimalMeat());
+                farmAnimal.isProductReady = false;
+            } else {
+                System.err.println("Meat is not ready");
+            }
         } catch (Exception e) {
             System.err.println("Cannot kill this animal.");
         }
@@ -84,10 +83,6 @@ public class Player extends Renderable {
 
     @Override
     public String toString() {
-        String s = "";
-        s += "Money: " + money + "\n";
-        s += "Water: " + water + "\n";
-        s += "Inventory: " + Arrays.toString(inventory.toArray()) + "\n";
-        return s;
+        return "" + ("Money: " + money + "\n") + ("Water: " + water + "\n") + ("Inventory: " + Arrays.toString(inventory.toArray()) + "\n");
     }
 }

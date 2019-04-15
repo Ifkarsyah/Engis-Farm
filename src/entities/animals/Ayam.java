@@ -12,13 +12,11 @@ public class Ayam extends FarmAnimal {
 
     @Override
     public Product getProduct() {
-        isProductReady = false;
         return new TelurAyam();
     }
 
     @Override
     public Product getAnimalMeat() {
-        isProductReady = false;
         return new DagingAyam();
     }
 
@@ -29,7 +27,6 @@ public class Ayam extends FarmAnimal {
 
     @Override
     public char render() {
-        return 'a';
+        return 'A';
     }
-
 }

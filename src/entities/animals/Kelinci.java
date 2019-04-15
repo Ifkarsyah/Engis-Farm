@@ -11,7 +11,6 @@ public class Kelinci extends FarmAnimal {
 
     @Override
     public Product getAnimalMeat() {
-        isProductReady = false;
         return new DagingKelinci();
     }
 
@@ -22,7 +21,7 @@ public class Kelinci extends FarmAnimal {
 
     @Override
     public char render() {
-        return 'k';
+        return 'K';
     }
 
 

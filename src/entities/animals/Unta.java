@@ -4,7 +4,6 @@ import entities.product.DagingUnta;
 import entities.product.Product;
 import entities.product.SusuUnta;
 
-
 public class Unta extends FarmAnimal {
     public Unta(String name) {
         super(name, 20);
@@ -12,14 +11,10 @@ public class Unta extends FarmAnimal {
 
     @Override
     public Product getProduct() {
-        numOfFarmAnimal--;
-        isProductReady = false;
         return new SusuUnta();
     }
 
     public Product getAnimalMeat() {
-        numOfFarmAnimal--;
-        isProductReady = false;
         return new DagingUnta();
     }
 
@@ -32,6 +27,4 @@ public class Unta extends FarmAnimal {
     public char render() {
         return 'u';
     }
-
-
 }

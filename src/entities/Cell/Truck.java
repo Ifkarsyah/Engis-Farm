@@ -15,7 +15,8 @@ public class Truck extends Cell {
     }
 
     public void reduceCooldownTime() {
-        if (cooldownTime > 0) this.cooldownTime--;
+        if (cooldownTime > 0)
+            this.cooldownTime--;
     }
 
     @Override

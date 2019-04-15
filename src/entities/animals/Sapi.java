@@ -12,15 +12,11 @@ public class Sapi extends FarmAnimal {
 
     @Override
     public Product getProduct() {
-        numOfFarmAnimal--;
-        isProductReady = false;
         return new SusuSapi();
     }
 
     @Override
     public Product getAnimalMeat() {
-        numOfFarmAnimal--;
-        isProductReady = false;
         return new DagingSapi();
     }
 

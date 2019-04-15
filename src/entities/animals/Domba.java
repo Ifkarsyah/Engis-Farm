@@ -11,18 +11,17 @@ public class Domba extends FarmAnimal {
 
     @Override
     public Product getAnimalMeat() {
-        isProductReady = false;
         return new DagingDomba();
     }
 
     @Override
     public void makeSound() {
-        System.out.println(name + ": Wikwik!");
+        System.out.println(name + ": Mbeeek!");
     }
 
     @Override
     public char render() {
-        return 'd';
+        return 'D';
     }
 
 

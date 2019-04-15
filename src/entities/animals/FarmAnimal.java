@@ -6,23 +6,14 @@ import entities.product.Product;
 
 
 public abstract class FarmAnimal extends Renderable {
-    public static int numOfFarmAnimal = 0;
     final String name;
     private final int hungerTime;
-    boolean isProductReady;
+    public boolean isProductReady = true;
     private int hungryPoint;
-
 
     FarmAnimal(String name, int hungerTime) {
         this.name = name;
-        this.hungerTime = hungerTime;
-        this.hungryPoint = this.hungerTime;
-        this.isProductReady = true;
-        numOfFarmAnimal++;
-    }
-
-    public boolean isHungry() {
-        return hungryPoint <= 5;
+        this.hungryPoint = this.hungerTime = hungerTime;
     }
 
     public void becomeHungrier() {
@@ -34,9 +25,10 @@ public abstract class FarmAnimal extends Renderable {
     }
 
     public void eat(Land land) {
-        if (isHungry() && land.isGrassGrown) {
+        if (hungryPoint <= 5 && land.isGrassGrown) {
             land.isGrassGrown = false;
             isProductReady = true;
+            hungryPoint = hungerTime;
         }
     }
 
@@ -49,6 +41,4 @@ public abstract class FarmAnimal extends Renderable {
     }
 
     public abstract void makeSound();
-
-
 }

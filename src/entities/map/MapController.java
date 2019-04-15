@@ -13,7 +13,7 @@ public class MapController {
     private static Point wellPoint = mapModel.well.getPoint();
 
     public static void main(String[] args) {
-        while (FarmAnimal.numOfFarmAnimal > 0) {
+        while (!mapModel.mapAnimals.isEmpty()) {
             System.out.println(mapModel);
             Scanner sc = new Scanner(System.in);
             System.out.print("Command: ");
@@ -24,7 +24,8 @@ public class MapController {
 
             switch (cmd) {
                 case "talk":
-                    if (targetAnimal != null) mapModel.player.talk(targetAnimal);
+                    if (targetAnimal != null)
+                        mapModel.player.talk(targetAnimal);
                     break;
                 case "interact":
                     if (targetAnimal != null) {
@@ -33,14 +34,17 @@ public class MapController {
                         } catch (Exception e) {
                             System.out.println(e.getMessage());
                         }
-                    }
-                    else if ((int) playerPoint.distanceSq(truckPoint) < 2) mapModel.player.interact(mapModel.truck);
-                    else if ((int) playerPoint.distanceSq(wellPoint) < 2) mapModel.player.interact(mapModel.well);
+                    } else if ((int) playerPoint.distanceSq(truckPoint) < 2)
+                        mapModel.player.interact(mapModel.truck);
+                    else if ((int) playerPoint.distanceSq(wellPoint) < 2)
+                        mapModel.player.interact(mapModel.well);
                     break;
                 case "kill":
                     if (targetAnimal != null) {
-                        mapModel.player.kill(targetAnimal);
-                        mapModel.mapAnimals.values().remove(targetAnimal);
+                        if (targetAnimal.isProductReady) {
+                            mapModel.player.kill(targetAnimal);
+                            mapModel.mapAnimals.values().remove(targetAnimal);
+                        }
                     }
                     break;
                 case "grow":
@@ -67,7 +71,7 @@ public class MapController {
             }
 
             mapModel.updateTick();
-            System.out.println("NumOfAnimals:" + FarmAnimal.numOfFarmAnimal);
+            System.out.println("NumOfAnimals:" + mapModel.mapAnimals.size());
             System.out.println(mapModel.player);
         }
     }
