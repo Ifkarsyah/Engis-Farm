@@ -6,12 +6,12 @@ import entities.animals.*;
 
 import java.awt.*;
 import java.util.HashMap;
-import java.util.Map;
 
 import static meta.Constant.*;
 
+@SuppressWarnings("ALL")
 class MapModel {
-    final HashMap<Point, Land> mapLands = new HashMap<>();
+    HashMap<Point, Land> mapLands = new HashMap<>();
     HashMap<Point, FarmAnimal> mapAnimals = new HashMap<>();
     Player player;
     Truck truck;
@@ -96,11 +96,10 @@ class MapModel {
 
     void updateTick() {
         truck.reduceCooldownTime();
-        for (Map.Entry<Point, FarmAnimal> e : mapAnimals.entrySet()) {
+        mapAnimals.entrySet().forEach(e -> {
             e.getValue().becomeHungrier();
-            if (e.getValue().isHungry()) {
-                e.getValue().eat(mapLands.get(e.getKey()));
-            }
-        }
+            e.getValue().eat(mapLands.get(e.getKey()));
+        });
+        mapAnimals.entrySet().removeIf(e -> (e.getValue().isStarving()));
     }
 }

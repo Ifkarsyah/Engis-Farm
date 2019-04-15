@@ -2,6 +2,7 @@ package entities.animals;
 
 import entities.product.DagingSapi;
 import entities.product.Product;
+import entities.product.SusuSapi;
 
 
 public class Sapi extends FarmAnimal {
@@ -13,7 +14,7 @@ public class Sapi extends FarmAnimal {
     public Product getProduct() {
         numOfFarmAnimal--;
         isProductReady = false;
-        return new DagingSapi();
+        return new SusuSapi();
     }
 
     @Override

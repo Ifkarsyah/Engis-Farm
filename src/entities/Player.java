@@ -7,6 +7,7 @@ import entities.animals.FarmAnimal;
 import entities.product.Product;
 
 import java.awt.*;
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class Player extends Renderable {
@@ -58,8 +59,7 @@ public class Player extends Renderable {
 
     public void interact(FarmAnimal farmAnimal) {
         try {
-            Product product = farmAnimal.getProduct();
-            inventory.add(product);
+            inventory.add(farmAnimal.getProduct());
         } catch (Exception e) {
             System.err.println("Cannot interact with this animal.");
         }
@@ -67,7 +67,7 @@ public class Player extends Renderable {
 
     public void kill(FarmAnimal farmAnimal) {
         try {
-            Product product = farmAnimal.getAnimalMeat();
+            inventory.add(farmAnimal.getAnimalMeat());
         } catch (Exception e) {
             System.err.println("Cannot kill this animal.");
         }
@@ -75,9 +75,19 @@ public class Player extends Renderable {
 
     public void grow(Land land) {
         land.isGrassGrown = true;
+        water--;
     }
 
     public void talk(FarmAnimal farmAnimal) {
         farmAnimal.makeSound();
+    }
+
+    @Override
+    public String toString() {
+        String s = "";
+        s += "Money: " + money + "\n";
+        s += "Water: " + water + "\n";
+        s += "Inventory: " + Arrays.toString(inventory.toArray()) + "\n";
+        return s;
     }
 }

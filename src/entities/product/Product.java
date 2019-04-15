@@ -10,7 +10,8 @@ public abstract class Product {
     }
 
 
-    public boolean equals(Product that) {
-        return this.type.equals(that.type);
+    @Override
+    public String toString() {
+        return type;
     }
 }

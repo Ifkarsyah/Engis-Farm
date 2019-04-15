@@ -27,12 +27,21 @@ public class MapController {
                     if (targetAnimal != null) mapModel.player.talk(targetAnimal);
                     break;
                 case "interact":
-                    if (targetAnimal != null) mapModel.player.interact(targetAnimal);
+                    if (targetAnimal != null) {
+                        try {
+                            mapModel.player.interact(targetAnimal);
+                        } catch (Exception e) {
+                            System.out.println(e.getMessage());
+                        }
+                    }
                     else if ((int) playerPoint.distanceSq(truckPoint) < 2) mapModel.player.interact(mapModel.truck);
                     else if ((int) playerPoint.distanceSq(wellPoint) < 2) mapModel.player.interact(mapModel.well);
                     break;
                 case "kill":
-                    if (targetAnimal != null) mapModel.player.kill(targetAnimal);
+                    if (targetAnimal != null) {
+                        mapModel.player.kill(targetAnimal);
+                        mapModel.mapAnimals.values().remove(targetAnimal);
+                    }
                     break;
                 case "grow":
                     mapModel.player.grow(mapModel.mapLands.get(playerPoint));
@@ -59,8 +68,7 @@ public class MapController {
 
             mapModel.updateTick();
             System.out.println("NumOfAnimals:" + FarmAnimal.numOfFarmAnimal);
-            System.out.println("Money: " + mapModel.player.getMoney());
-            System.out.println("Water: " + mapModel.player.getWater());
+            System.out.println(mapModel.player);
         }
     }
 }
