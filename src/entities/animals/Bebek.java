@@ -7,7 +7,7 @@ import entities.product.TelurBebek;
 
 public class Bebek extends FarmAnimal {
     public Bebek(String name) {
-        super(name, 20);
+        super(name, 10);
     }
 
     @Override

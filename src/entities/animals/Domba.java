@@ -6,7 +6,7 @@ import entities.product.Product;
 
 public class Domba extends FarmAnimal {
     public Domba(String name) {
-        super(name, 20);
+        super(name, 10);
     }
 
     @Override

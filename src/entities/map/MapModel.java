@@ -6,6 +6,9 @@ import entities.animals.*;
 
 import java.awt.*;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.concurrent.ThreadLocalRandom;
 
 import static meta.Constant.*;
 
@@ -97,11 +100,36 @@ class MapModel {
     }
 
     void updateTick() {
+        randomAnimalMove();
         truck.reduceCooldownTime();
         mapAnimals.entrySet().forEach(e -> {
             e.getValue().becomeHungrier();
             e.getValue().eat(mapLands.get(e.getKey()));
         });
         mapAnimals.entrySet().removeIf(e -> (e.getValue().isStarving()));
+    }
+
+    void randomAnimalMove() {
+        HashMap<Point, FarmAnimal> tempAnimals = new HashMap<>();
+        Iterator it = mapAnimals.entrySet().iterator();
+        while (it.hasNext()) {
+            Map.Entry e = (Map.Entry) it.next();
+
+            Point point = (Point) e.getKey();
+            FarmAnimal farmAnimal = (FarmAnimal) e.getValue();
+
+            int r = ThreadLocalRandom.current().nextInt(4);
+            int dx = upDown[r];
+            int dy = leftRight[r];
+            Point targetPoint = new Point(point.x + dx, point.y + dy);
+
+            if (isEmptyCell(targetPoint)) {
+                if (mapLands.get(point).type.equals(mapLands.get(targetPoint).type)) {
+                    tempAnimals.put(targetPoint, farmAnimal);
+                    it.remove();
+                }
+            }
+        }
+        mapAnimals.putAll(tempAnimals);
     }
 }

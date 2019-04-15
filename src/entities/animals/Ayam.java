@@ -7,7 +7,7 @@ import entities.product.TelurAyam;
 
 public class Ayam extends FarmAnimal {
     public Ayam(String name) {
-        super(name, 20);
+        super(name, 10);
     }
 
     @Override
