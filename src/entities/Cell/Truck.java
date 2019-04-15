@@ -14,7 +14,7 @@ public class Truck extends Cell {
         cooldownTime = 30;
     }
 
-    public void reduceCooldownTime(int cooldownTime) {
+    public void reduceCooldownTime() {
         if (cooldownTime > 0) this.cooldownTime--;
     }
 

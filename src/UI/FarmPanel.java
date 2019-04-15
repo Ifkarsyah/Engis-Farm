@@ -16,7 +16,7 @@ class FarmPanel extends JPanel {
 
         for (int i = 0; i < sizeRowMap; i++) {
             for (int j = 0; j < sizeColMap; j++) {
-                map[i][j] = new JButton("-" );
+                map[i][j] = new JButton("-");
                 add(map[i][j]);
             }
         }

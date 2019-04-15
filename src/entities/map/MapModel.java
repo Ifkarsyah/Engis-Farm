@@ -6,16 +6,17 @@ import entities.animals.*;
 
 import java.awt.*;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.concurrent.ThreadLocalRandom;
 
 import static meta.Constant.*;
 
 class MapModel {
-    HashMap<Point, FarmAnimal> mapAnimals = new HashMap<>();
     final HashMap<Point, Land> mapLands = new HashMap<>();
-    Player player; Truck truck;Mixer mixer; Well well;
+    HashMap<Point, FarmAnimal> mapAnimals = new HashMap<>();
+    Player player;
+    Truck truck;
+    Mixer mixer;
+    Well well;
 
     MapModel() {
         initMapLands();
@@ -29,9 +30,9 @@ class MapModel {
     @Override
     public String toString() {
         StringBuilder s = new StringBuilder();
-        for (int i=0; i<sizeRowMap; i++){
-            for (int j=0; j<sizeColMap; j++){
-                Point currentPoint = new Point(i,j);
+        for (int i = 0; i < sizeRowMap; i++) {
+            for (int j = 0; j < sizeColMap; j++) {
+                Point currentPoint = new Point(i, j);
                 if (currentPoint.equals(player.getPoint())) s.append(player.render());
                 else if (currentPoint.equals(truck.getPoint())) s.append(truck.render());
                 else if (currentPoint.equals(mixer.getPoint())) s.append(mixer.render());
@@ -45,7 +46,7 @@ class MapModel {
     }
 
     private void initMapAnimals() {
-        mapAnimals.put(new Point(0,0), new Ayam("gracia"));
+        mapAnimals.put(new Point(0, 0), new Ayam("gracia"));
         mapAnimals.put(new Point(0, 2), new Bebek("esmeralda"));
         mapAnimals.put(new Point(5, 5), new Domba("antonio"));
         mapAnimals.put(new Point(0, 5), new Kelinci("fernando"));
@@ -54,16 +55,19 @@ class MapModel {
     }
 
     private void initMapLands() {
-        for (int i = 0; i < sizeRowMap; i++) for (int j = 0; j < sizeColMap; j++)
-            mapLands.put(new Point(i, j), new Grassland(new Point(i, j)));
-        for (int i = 0; i < 3; i++) for (int j = 0; j < 3; j++)
-            mapLands.put(new Point(i, j), new Coop(new Point(i, j)));
-        for (int i = 0; i < 6; i++) for (int j = 4; j < 8; j++)
-            mapLands.put(new Point(i, j), new Barn(new Point(i, j)));
+        for (int i = 0; i < sizeRowMap; i++)
+            for (int j = 0; j < sizeColMap; j++)
+                mapLands.put(new Point(i, j), new Grassland(new Point(i, j)));
+        for (int i = 0; i < 3; i++)
+            for (int j = 0; j < 3; j++)
+                mapLands.put(new Point(i, j), new Coop(new Point(i, j)));
+        for (int i = 0; i < 6; i++)
+            for (int j = 4; j < 8; j++)
+                mapLands.put(new Point(i, j), new Barn(new Point(i, j)));
     }
 
     FarmAnimal animalIsAroundPlayer() {
-        for (int i=0; i<4; i++) {
+        for (int i = 0; i < 4; i++) {
             Point around = new Point(player.getPoint());
             around.translate(upDown[i], leftRight[i]);
             if (mapAnimals.containsKey(around)) return mapAnimals.get(around);
@@ -71,11 +75,11 @@ class MapModel {
         return null;
     }
 
-    private boolean inRange(Point point){
+    private boolean inRange(Point point) {
         return (point.x >= 0 && point.x < sizeRowMap) && (point.y >= 0 && point.y < sizeColMap);
     }
 
-    private boolean isEmptyCell(Point point){
+    private boolean isEmptyCell(Point point) {
         return (inRange(point)
                 && !mapAnimals.containsKey(point)
                 && (truck.getPoint() != point)
@@ -83,44 +87,20 @@ class MapModel {
                 && (well.getPoint() != point)
                 && (player.getPoint() != point));
     }
-    void playerMove(int dx, int dy){
+
+    void playerMove(int dx, int dy) {
         Point targetPoint = new Point(player.getPoint().x + dx, player.getPoint().y + dy);
-            if (isEmptyCell(targetPoint)) player.getPoint().translate(dx, dy);
+        if (isEmptyCell(targetPoint)) player.getPoint().translate(dx, dy);
     }
 
-    void randomMoveAnimal(){
-        HashSet<Point> hasMove = new HashSet<>();
-        for (int i=0; i<sizeRowMap; i++){
-            for (int j=0; j<sizeColMap; j++){
-                int r = ThreadLocalRandom.current().nextInt(4 );
-                int dx = upDown[r]; int dy = leftRight[r];
 
-                if (!hasMove.contains(new Point(i,j))){
-                    if (mapAnimals.containsKey(new Point(i,j))){
-
-                        System.out.println("halo");
-                        FarmAnimal farmAnimal = mapAnimals.remove(new Point(i,j));
-
-                        Point currentPoint = farmAnimal.getPoint();
-                        Point targetPoint = new Point(currentPoint.x + dx, currentPoint.y + dy);
-
-                        if (isEmptyCell(targetPoint)){
-
-                            if (mapLands.get(currentPoint).type.equals(mapLands.get(targetPoint).type)){
-                                mapAnimals.put(targetPoint, farmAnimal);
-                                hasMove.add(targetPoint);
-                            }
-
-                        }
-
-                    }
-                }
+    void updateTick() {
+        truck.reduceCooldownTime();
+        for (Map.Entry<Point, FarmAnimal> e : mapAnimals.entrySet()) {
+            e.getValue().becomeHungrier();
+            if (e.getValue().isHungry()) {
+                e.getValue().eat(mapLands.get(e.getKey()));
             }
         }
-    }
-
-    void updateTick(){
-        randomMoveAnimal();
-        for(Map.Entry<Point, FarmAnimal> e : mapAnimals.entrySet()) e.getValue().becomeHungrier();
     }
 }

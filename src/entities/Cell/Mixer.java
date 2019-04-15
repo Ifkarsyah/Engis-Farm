@@ -11,9 +11,9 @@ public class Mixer extends Cell {
         super(point);
     }
 
-    public void mix(LinkedList<Product> playerInventory, SideProduct sideProduct){
-        for (Product p: sideProduct.ingredients) {
-            if (!playerInventory.removeIf(inv -> (inv.type.equals(p.type)))){
+    public void mix(LinkedList<Product> playerInventory, SideProduct sideProduct) {
+        for (Product p : sideProduct.ingredients) {
+            if (!playerInventory.removeIf(inv -> (inv.type.equals(p.type)))) {
                 return;
             }
         }

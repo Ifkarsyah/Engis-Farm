@@ -1,6 +1,5 @@
 package entities.animals;
 
-import entities.Cell.Land;
 import entities.product.DagingDomba;
 import entities.product.Product;
 
@@ -11,13 +10,13 @@ public class Domba extends FarmAnimal {
     }
 
     @Override
-    public Product getAnimalMeat(){
+    public Product getAnimalMeat() {
         isProductReady = false;
         return new DagingDomba();
     }
 
     @Override
-    public void makeSound(){
+    public void makeSound() {
         System.out.println(name + ": Wikwik!");
     }
 
@@ -26,8 +25,5 @@ public class Domba extends FarmAnimal {
         return 'd';
     }
 
-    @Override
-    public boolean inCage(Land land){
-        return land.type.equals("Barn");
-    }
+
 }

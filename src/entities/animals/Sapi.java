@@ -1,6 +1,5 @@
 package entities.animals;
 
-import entities.Cell.Land;
 import entities.product.DagingSapi;
 import entities.product.Product;
 
@@ -18,14 +17,14 @@ public class Sapi extends FarmAnimal {
     }
 
     @Override
-    public Product getAnimalMeat(){
+    public Product getAnimalMeat() {
         numOfFarmAnimal--;
         isProductReady = false;
         return new DagingSapi();
     }
 
     @Override
-    public void makeSound(){
+    public void makeSound() {
         System.out.println(name + ": Mooooooo!");
     }
 
@@ -34,8 +33,4 @@ public class Sapi extends FarmAnimal {
         return 's';
     }
 
-    @Override
-    public boolean inCage(Land land){
-        return land.type.equals("Barn") || land.type.equals("Grassland");
-    }
 }

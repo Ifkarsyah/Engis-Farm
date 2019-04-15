@@ -1,31 +1,29 @@
 package entities;
 
 import entities.Cell.Land;
-import entities.Cell.Mixer;
 import entities.Cell.Truck;
 import entities.Cell.Well;
 import entities.animals.FarmAnimal;
 import entities.product.Product;
-import entities.product.SideProduct;
 
 import java.awt.*;
 import java.util.LinkedList;
 
-public class Player extends Renderable{
+public class Player extends Renderable {
     private Point point;
     private int water;
     private int money;
     private LinkedList<Product> inventory;
-
-    public Point getPoint() {
-        return point;
-    }
 
     public Player(Point point, int water, int money) {
         this.point = point;
         this.water = water;
         this.money = money;
         this.inventory = new LinkedList<>();
+    }
+
+    public Point getPoint() {
+        return point;
     }
 
     public int getWater() {
@@ -45,34 +43,30 @@ public class Player extends Renderable{
         return 'p';
     }
 
-    public void interact(Well well){
+    public void interact(Well well) {
         water += well.waterCapacity;
         if (water > 100) water = 100;
     }
 
-    public void interact(Truck truck){
-        while (!inventory.isEmpty()){
+    public void interact(Truck truck) {
+        while (!inventory.isEmpty()) {
             Product product = inventory.removeFirst();
             money += product.price;
         }
         truck.resetCooldownTime();
     }
 
-    public void interact(Mixer mixer, SideProduct sideProduct){
-        mixer.mix(inventory, sideProduct);
-    }
-
     public void interact(FarmAnimal farmAnimal) {
         try {
             Product product = farmAnimal.getProduct();
             inventory.add(product);
-        } catch (Exception e){
+        } catch (Exception e) {
             System.err.println("Cannot interact with this animal.");
         }
     }
 
-    public void kill(FarmAnimal farmAnimal){
-        try{
+    public void kill(FarmAnimal farmAnimal) {
+        try {
             Product product = farmAnimal.getAnimalMeat();
         } catch (Exception e) {
             System.err.println("Cannot kill this animal.");
@@ -83,7 +77,7 @@ public class Player extends Renderable{
         land.isGrassGrown = true;
     }
 
-    public void talk(FarmAnimal farmAnimal){
+    public void talk(FarmAnimal farmAnimal) {
         farmAnimal.makeSound();
     }
 }

@@ -1,6 +1,5 @@
 package entities.animals;
 
-import entities.Cell.Land;
 import entities.product.DagingUnta;
 import entities.product.Product;
 import entities.product.SusuUnta;
@@ -18,14 +17,14 @@ public class Unta extends FarmAnimal {
         return new SusuUnta();
     }
 
-    public Product getAnimalMeat(){
+    public Product getAnimalMeat() {
         numOfFarmAnimal--;
         isProductReady = false;
         return new DagingUnta();
     }
 
     @Override
-    public void makeSound(){
+    public void makeSound() {
         System.out.println(name + ": Alhamdulillah!");
     }
 
@@ -34,8 +33,5 @@ public class Unta extends FarmAnimal {
         return 'u';
     }
 
-    @Override
-    public boolean inCage(Land land){
-        return land.type.equals("Barn") || land.type.equals("Grassland");
-    }
+
 }

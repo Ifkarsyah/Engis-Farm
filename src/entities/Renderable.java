@@ -1,7 +1,7 @@
 package entities;
 
 public abstract class Renderable {
-    public char render(){
+    public char render() {
         return 0;
     }
 }

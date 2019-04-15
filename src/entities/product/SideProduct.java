@@ -2,7 +2,7 @@ package entities.product;
 
 import java.util.LinkedList;
 
-public abstract class SideProduct extends Product{
+public abstract class SideProduct extends Product {
     public final LinkedList<Product> ingredients;
 
     SideProduct(int price, String type) {

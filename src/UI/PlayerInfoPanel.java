@@ -3,7 +3,7 @@ package UI;
 import javax.swing.*;
 
 class PlayerInfoPanel extends JPanel {
-    private String[] playerInventory= { "Monday","Tuesday","Wednesday", "Thursday","Friday","Saturday","Sunday"};
+    private String[] playerInventory = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
 
     public PlayerInfoPanel() {
         super();
@@ -16,7 +16,7 @@ class PlayerInfoPanel extends JPanel {
         add(new JButton("Water: " + playerWater));
     }
 
-    private void addInventory(){
+    private void addInventory() {
         add(new JLabel("Inventory"));
         add(new JList<>(playerInventory));
     }

@@ -1,6 +1,5 @@
 package entities.animals;
 
-import entities.Cell.Land;
 import entities.product.DagingBebek;
 import entities.product.Product;
 import entities.product.TelurBebek;
@@ -12,19 +11,19 @@ public class Bebek extends FarmAnimal {
     }
 
     @Override
-    public Product getProduct(){
+    public Product getProduct() {
         isProductReady = false;
         return new TelurBebek();
     }
 
     @Override
-    public Product getAnimalMeat(){
+    public Product getAnimalMeat() {
         isProductReady = false;
         return new DagingBebek();
     }
 
     @Override
-    public void makeSound(){
+    public void makeSound() {
         System.out.println(name + ": Wikwik!");
     }
 
@@ -33,8 +32,5 @@ public class Bebek extends FarmAnimal {
         return 'b';
     }
 
-    @Override
-    public boolean inCage(Land land){
-        return land.type.equals("Barn") || land.type.equals("Coop");
-    }
+
 }
