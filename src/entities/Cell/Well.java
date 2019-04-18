@@ -3,11 +3,10 @@ package entities.Cell;
 import java.awt.*;
 
 public class Well extends Cell {
-    public int waterCapacity;
+    public final int waterCapacity = 30;
 
     public Well(Point point) {
         super(point);
-        this.waterCapacity = 30;
     }
 
     @Override

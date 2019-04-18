@@ -1,8 +1,8 @@
 package entities.map;
 
 import entities.Cell.*;
-import entities.Player;
 import entities.animals.*;
+import entities.player.PlayerModel;
 
 import java.awt.*;
 import java.util.HashMap;
@@ -13,18 +13,18 @@ import java.util.concurrent.ThreadLocalRandom;
 import static meta.Constant.*;
 
 @SuppressWarnings("ALL")
-class MapModel {
-    HashMap<Point, Land> mapLands = new HashMap<>();
-    HashMap<Point, FarmAnimal> mapAnimals = new HashMap<>();
-    Player player;
-    Truck truck;
-    Mixer mixer;
-    Well well;
+public class MapModel {
+    public HashMap<Point, Land> mapLands = new HashMap<>();
+    public HashMap<Point, FarmAnimal> mapAnimals = new HashMap<>();
+    public PlayerModel playerModel;
+    public Truck truck;
+    public Mixer mixer;
+    public Well well;
 
-    MapModel() {
+    public MapModel() {
         initMapLands();
         initMapAnimals();
-        this.player = new Player(new Point(6, 10));
+        this.playerModel = new PlayerModel(new Point(6, 10));
         this.truck = new Truck(new Point(0, 10));
         this.mixer = new Mixer(new Point(1, 10));
         this.well = new Well(new Point(4, 10));
@@ -57,8 +57,8 @@ class MapModel {
         for (int i = 0; i < sizeRowMap; i++) {
             for (int j = 0; j < sizeColMap; j++) {
                 Point currentPoint = new Point(i, j);
-                if (currentPoint.equals(player.getPoint()))
-                    s.append(player.render());
+                if (currentPoint.equals(playerModel.getPoint()))
+                    s.append(playerModel.render());
                 else if (currentPoint.equals(truck.getPoint()))
                     s.append(truck.render());
                 else if (currentPoint.equals(mixer.getPoint()))
@@ -75,9 +75,9 @@ class MapModel {
         return s.toString();
     }
 
-    FarmAnimal animalIsAroundPlayer() {
+    public FarmAnimal animalIsAroundPlayer() {
         for (int i = 0; i < 4; i++) {
-            Point around = new Point(player.getPoint());
+            Point around = new Point(playerModel.getPoint());
             around.translate(upDown[i], leftRight[i]);
             if (mapAnimals.containsKey(around))
                 return mapAnimals.get(around);
@@ -85,14 +85,14 @@ class MapModel {
         return null;
     }
 
-    void playerMove(int dx, int dy) {
-        Point targetPoint = new Point(player.getPoint().x + dx, player.getPoint().y + dy);
+    public void playerMove(int dx, int dy) {
+        Point targetPoint = new Point(playerModel.getPoint().x + dx, playerModel.getPoint().y + dy);
         if (isEmptyCell(targetPoint))
-            player.getPoint().translate(dx, dy);
+            playerModel.getPoint().translate(dx, dy);
     }
 
     private boolean isEmptyCell(Point point) {
-        return (inRange(point) && !mapAnimals.containsKey(point) && (truck.getPoint() != point) && (mixer.getPoint() != point) && (well.getPoint() != point) && (player.getPoint() != point));
+        return (inRange(point) && !mapAnimals.containsKey(point) && (truck.getPoint() != point) && (mixer.getPoint() != point) && (well.getPoint() != point) && (playerModel.getPoint() != point));
     }
 
     private boolean inRange(Point point) {
@@ -106,7 +106,7 @@ class MapModel {
             e.getValue().becomeHungrier();
             e.getValue().eat(mapLands.get(e.getKey()));
         });
-        mapAnimals.entrySet().removeIf(e -> (e.getValue().isStarving()));
+        mapAnimals.entrySet().removeIf(e -> (e.getValue().isDeath()));
     }
 
     void randomAnimalMove() {
@@ -114,20 +114,15 @@ class MapModel {
         Iterator it = mapAnimals.entrySet().iterator();
         while (it.hasNext()) {
             Map.Entry e = (Map.Entry) it.next();
-
             Point point = (Point) e.getKey();
             FarmAnimal farmAnimal = (FarmAnimal) e.getValue();
 
             int r = ThreadLocalRandom.current().nextInt(4);
-            int dx = upDown[r];
-            int dy = leftRight[r];
-            Point targetPoint = new Point(point.x + dx, point.y + dy);
+            Point targetPoint = new Point(point.x + upDown[r], point.y + leftRight[r]);
 
-            if (isEmptyCell(targetPoint)) {
-                if (mapLands.get(point).type.equals(mapLands.get(targetPoint).type)) {
-                    tempAnimals.put(targetPoint, farmAnimal);
-                    it.remove();
-                }
+            if (isEmptyCell(targetPoint) && mapLands.get(point).type == mapLands.get(targetPoint).type) {
+                tempAnimals.put(targetPoint, farmAnimal);
+                it.remove();
             }
         }
         mapAnimals.putAll(tempAnimals);

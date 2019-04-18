@@ -1,7 +1,7 @@
 package entities.product;
 
 
-class Sate extends SideProduct {
+public class Sate extends SideProduct {
     public Sate() {
         super(45000, "Sate");
         ingredients.add(new DagingAyam());

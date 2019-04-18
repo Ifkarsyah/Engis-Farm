@@ -20,7 +20,7 @@ public abstract class FarmAnimal extends Renderable {
         hungryPoint--;
     }
 
-    public boolean isStarving() {
+    public boolean isDeath() {
         return hungryPoint <= 0;
     }
 

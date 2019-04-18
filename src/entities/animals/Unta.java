@@ -6,7 +6,7 @@ import entities.product.SusuUnta;
 
 public class Unta extends FarmAnimal {
     public Unta(String name) {
-        super(name, 15);
+        super(name, 20);
     }
 
     @Override
@@ -25,6 +25,6 @@ public class Unta extends FarmAnimal {
 
     @Override
     public char render() {
-        return 'u';
+        return 'U';
     }
 }

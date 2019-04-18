@@ -9,7 +9,6 @@ public class Truck extends Cell {
         super(point);
     }
 
-
     public void resetCooldownTime() {
         cooldownTime = 30;
     }

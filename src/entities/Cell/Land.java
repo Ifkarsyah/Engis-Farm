@@ -8,8 +8,7 @@ public abstract class Land extends Cell {
 
     Land(Point point, String type) {
         super(point);
-        // this.isGrassGrown = Math.random() < 0.5;
-        this.isGrassGrown = true;
+        this.isGrassGrown = Math.random() < 0.5;
         this.type = type;
     }
 

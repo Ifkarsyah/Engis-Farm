@@ -7,7 +7,7 @@ import entities.product.SusuSapi;
 
 public class Sapi extends FarmAnimal {
     public Sapi(String name) {
-        super(name, 15);
+        super(name, 20);
     }
 
     @Override
@@ -27,7 +27,7 @@ public class Sapi extends FarmAnimal {
 
     @Override
     public char render() {
-        return 's';
+        return 'S';
     }
 
 }
