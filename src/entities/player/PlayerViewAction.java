@@ -13,29 +13,25 @@ import javax.swing.*;
 import java.awt.*;
 
 public class PlayerViewAction extends JPanel {
-    public MapView mapView;
-    public PlayerModel playerModel;
-    public PlayerViewInfo playerViewInfo;
-    public MapModel mapModel;
-    public JButton killButton;
-    public JButton interactButton;
-    public JButton mixKejuButton;
-    public JButton mixSateButton;
-    public JButton mixBurgerButton;
-    public JButton growButton;
+    MapView mapView;
+    PlayerViewInfo playerViewInfo;
+    MapModel mapModel;
 
-    public PlayerViewAction(PlayerModel playerModel, MapModel mapModel, MapView mapView, PlayerViewInfo playerViewInfo) {
+    JButton talkButton = new JButton("TALK");
+    JButton killButton = new JButton("KILL");
+    JButton interactButton = new JButton("INTERACT");
+    JButton mixKejuButton = new JButton("MIX KEJU");
+    JButton mixSateButton = new JButton("MIX SATE");
+    JButton mixBurgerButton = new JButton("MIX BURGER");
+    JButton growButton = new JButton("GROW");
+
+    public PlayerViewAction(MapModel mapModel, MapView mapView, PlayerViewInfo playerViewInfo) {
         super();
-        this.playerModel = playerModel;
         this.mapModel = mapModel;
         this.mapView = mapView;
         this.playerViewInfo = playerViewInfo;
-        killButton = new JButton("KILL");
-        interactButton = new JButton("INTERACT");
-        mixKejuButton = new JButton("MIX KEJU");
-        mixSateButton = new JButton("MIX SATE");
-        mixBurgerButton = new JButton("MIX BURGER");
-        growButton = new JButton("GROW");
+
+        add(talkButton);
         add(killButton);
         add(interactButton);
         add(mixKejuButton);
@@ -43,6 +39,7 @@ public class PlayerViewAction extends JPanel {
         add(mixBurgerButton);
         add(growButton);
 
+        addListenerTalk();
         addListenerKill();
         addListenerGrow();
         addListenerInteract();
@@ -51,19 +48,27 @@ public class PlayerViewAction extends JPanel {
         addListenerMixSate();
     }
 
+    public void addListenerTalk() {
+        talkButton.addActionListener(actionEvent -> {
+            FarmAnimal targetAnimal = mapModel.animalIsAroundPlayer();
+            if (targetAnimal != null) {
+                if (targetAnimal.isProductReady) {
+                    mapModel.playerModel.talk(targetAnimal);
+                }
+            }
+        });
+    }
     public void addListenerKill() {
         killButton.addActionListener(actionEvent -> {
             FarmAnimal targetAnimal = mapModel.animalIsAroundPlayer();
             if (targetAnimal != null) {
-                System.out.println("animal ada");
                 if (targetAnimal.isProductReady) {
                     mapModel.playerModel.kill(targetAnimal);
                     mapModel.mapAnimals.values().remove(targetAnimal);
-                    System.out.println("animal killed");
                 }
             }
-            System.out.println("killButton pressed");
             mapView.updateMap();
+            playerViewInfo.updatePlayerInfoView(mapModel.playerModel);
         });
 
     }
@@ -71,10 +76,9 @@ public class PlayerViewAction extends JPanel {
     public void addListenerGrow() {
         growButton.addActionListener(actionEvent -> {
             mapModel.playerModel.grow(mapModel.mapLands.get(mapModel.playerModel.getPoint()));
-            System.out.println("growButton pressed");
             mapView.updateMap();
+            playerViewInfo.updatePlayerInfoView(mapModel.playerModel);
         });
-
     }
 
     public void addListenerInteract() {
@@ -92,12 +96,13 @@ public class PlayerViewAction extends JPanel {
                 } catch (Exception e) {
                     System.out.println(e.getMessage());
                 }
-            } else if ((int) playerPoint.distanceSq(truckPoint) < 2)
+            } else if ((int) playerPoint.distanceSq(truckPoint) < 2) {
                 playerModel.interact(truck);
-            else if ((int) playerPoint.distanceSq(wellPoint) < 2)
+            } else if ((int) playerPoint.distanceSq(wellPoint) < 2) {
                 playerModel.interact(well);
-            System.out.println("interactButton pressed");
+            }
             mapView.updateMap();
+            playerViewInfo.updatePlayerInfoView(mapModel.playerModel);
         });
     }
 
@@ -107,8 +112,8 @@ public class PlayerViewAction extends JPanel {
             Point mixerPoint = mapModel.mixer.getPoint();
             if ((int) playerPoint.distanceSq(mixerPoint) < 2)
                 mapModel.mixer.mix(mapModel.playerModel.getInventory(), new Burger());
-            System.out.println("mixBurgerButton pressed");
             mapView.updateMap();
+            playerViewInfo.updatePlayerInfoView(mapModel.playerModel);
         });
     }
 
@@ -118,8 +123,8 @@ public class PlayerViewAction extends JPanel {
             Point mixerPoint = mapModel.mixer.getPoint();
             if ((int) playerPoint.distanceSq(mixerPoint) < 2)
                 mapModel.mixer.mix(mapModel.playerModel.getInventory(), new Keju());
-            System.out.println("mixBurgerButton pressed");
             mapView.updateMap();
+            playerViewInfo.updatePlayerInfoView(mapModel.playerModel);
         });
     }
 
@@ -129,8 +134,8 @@ public class PlayerViewAction extends JPanel {
             Point mixerPoint = mapModel.mixer.getPoint();
             if ((int) playerPoint.distanceSq(mixerPoint) < 2)
                 mapModel.mixer.mix(mapModel.playerModel.getInventory(), new Sate());
-            System.out.println("mixBurgerButton pressed");
             mapView.updateMap();
+            playerViewInfo.updatePlayerInfoView(mapModel.playerModel);
         });
     }
 }

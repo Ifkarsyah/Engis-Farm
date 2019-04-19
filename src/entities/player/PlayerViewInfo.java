@@ -20,7 +20,11 @@ public class PlayerViewInfo extends JPanel {
         add(inventoryView);
         add(moneyView);
         add(waterView);
+    }
 
-
+    public void updatePlayerInfoView(PlayerModel playerModel) {
+        moneyView.setText("Money: " + playerModel.getMoney());
+        waterView.setText("Water: " + playerModel.getWater());
+        inventoryView.setListData(playerModel.getInventory().toArray());
     }
 }
