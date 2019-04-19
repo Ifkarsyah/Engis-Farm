@@ -92,6 +92,7 @@ public class MapModel {
     }
 
     private boolean isEmptyCell(Point point) {
+
         return (inRange(point) && !mapAnimals.containsKey(point) && (truck.getPoint() != point) && (mixer.getPoint() != point) && (well.getPoint() != point) && (playerModel.getPoint() != point));
     }
 

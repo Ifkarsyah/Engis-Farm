@@ -19,8 +19,14 @@ public class MapView extends JPanel {
 
         this.mapModel = mapModel;
 
+        initMapEntities();
+        initColorMapLands();
+        addKeyListenerPlayerMove();
 
 
+    }
+
+    private void initMapEntities() {
         for (int i = 0; i < sizeRowMap; i++) {
             for (int j = 0; j < sizeColMap; j++) {
                 Point currentPoint = new Point(i, j);
@@ -39,11 +45,7 @@ public class MapView extends JPanel {
                 add(map[i][j]);
             }
         }
-        initColorMapLands();
-        addKeyListenerPlayerMove();
-
     }
-
     private void initColorMapLands() {
         for (int i = 0; i < sizeRowMap; i++)
             for (int j = 0; j < sizeColMap; j++)
@@ -57,34 +59,58 @@ public class MapView extends JPanel {
     }
 
     public void addKeyListenerPlayerMove() {
-        addKeyListener(new KeyListener() {
-            @Override
-            public void keyTyped(KeyEvent keyEvent) {
-            }
+        for (int i = 0; i < sizeRowMap; i++)
+            for (int j = 0; j < sizeColMap; j++) {
+                map[i][j].addKeyListener(new KeyListener() {
+                    @Override
+                    public void keyTyped(KeyEvent keyEvent) {
+                    }
 
-            @Override
-            public void keyPressed(KeyEvent keyEvent) {
-                int keyCode = keyEvent.getKeyCode();
-                switch (keyCode) {
-                    case KeyEvent.VK_LEFT:
-                        mapModel.playerMove(0, -1);
-                        System.out.println("aowkawkawo");
-                        break;
-                    case KeyEvent.VK_DOWN:
-                        mapModel.playerMove(1, 0);
-                        break;
-                    case KeyEvent.VK_RIGHT:
-                        mapModel.playerMove(0, 1);
-                        break;
-                    case KeyEvent.VK_UP:
-                        mapModel.playerMove(-1, 0);
-                        break;
-                }
-            }
+                    @Override
+                    public void keyPressed(KeyEvent keyEvent) {
+                        int keyCode = keyEvent.getKeyCode();
+                        switch (keyCode) {
+                            case KeyEvent.VK_LEFT:
+                                mapModel.playerMove(0, -1);
+                                break;
+                            case KeyEvent.VK_DOWN:
+                                mapModel.playerMove(1, 0);
+                                break;
+                            case KeyEvent.VK_RIGHT:
+                                mapModel.playerMove(0, 1);
+                                break;
+                            case KeyEvent.VK_UP:
+                                mapModel.playerMove(-1, 0);
+                                break;
+                        }
+                        updateMap();
+                    }
 
-            @Override
-            public void keyReleased(KeyEvent keyEvent) {
+                    @Override
+                    public void keyReleased(KeyEvent keyEvent) {
+                    }
+                });
             }
-        });
+    }
+
+    public void updateMap() {
+        mapModel.updateTick();
+        for (int i = 0; i < sizeRowMap; i++) {
+            for (int j = 0; j < sizeColMap; j++) {
+                Point currentPoint = new Point(i, j);
+                if (currentPoint.equals(mapModel.playerModel.getPoint()))
+                    map[i][j].setText(String.valueOf(mapModel.playerModel.render()));
+                else if (currentPoint.equals(mapModel.truck.getPoint()))
+                    map[i][j].setText(String.valueOf(mapModel.truck.render()));
+                else if (currentPoint.equals(mapModel.mixer.getPoint()))
+                    map[i][j].setText(String.valueOf(mapModel.mixer.render()));
+                else if (currentPoint.equals(mapModel.well.getPoint()))
+                    map[i][j].setText(String.valueOf(mapModel.well.render()));
+                else if (mapModel.mapAnimals.containsKey(currentPoint))
+                    map[i][j].setText(String.valueOf(mapModel.mapAnimals.get(currentPoint).render()));
+                else
+                    map[i][j].setText(String.valueOf(mapModel.mapLands.get(currentPoint).render()));
+            }
+        }
     }
 }

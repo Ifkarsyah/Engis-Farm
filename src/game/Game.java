@@ -14,7 +14,7 @@ public class Game {
     public Game() {
         mapModel = new MapModel();
         mapView = new MapView(this.mapModel);
-        playerViewAction = new PlayerViewAction(this.mapModel.playerModel, this.mapModel);
+        playerViewAction = new PlayerViewAction(this.mapModel.playerModel, this.mapModel, this.mapView);
 
     }
 }

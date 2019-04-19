@@ -73,7 +73,7 @@ public class PlayerModel extends Renderable {
      */
     @Override
     public char render() {
-        return 'p';
+        return 'P';
     }
 
     /**
