@@ -10,7 +10,7 @@ import java.awt.*;
 class Launcher {
     static Game game = new Game();
     static PlayerViewInfo playerViewInfo = new PlayerViewInfo(game.mapModel.playerModel);
-    static PlayerViewAction playerViewAction = new PlayerViewAction(game.mapModel.playerModel, game.mapModel, game.mapView);
+    static PlayerViewAction playerViewAction = new PlayerViewAction(game.mapModel.playerModel, game.mapModel, game.mapView, game.playerViewInfo);
 
     public static void main(String[] args) {
         javax.swing.SwingUtilities.invokeLater(() -> {

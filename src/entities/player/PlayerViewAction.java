@@ -15,6 +15,7 @@ import java.awt.*;
 public class PlayerViewAction extends JPanel {
     public MapView mapView;
     public PlayerModel playerModel;
+    public PlayerViewInfo playerViewInfo;
     public MapModel mapModel;
     public JButton killButton;
     public JButton interactButton;
@@ -23,11 +24,12 @@ public class PlayerViewAction extends JPanel {
     public JButton mixBurgerButton;
     public JButton growButton;
 
-    public PlayerViewAction(PlayerModel playerModel, MapModel mapModel, MapView mapView) {
+    public PlayerViewAction(PlayerModel playerModel, MapModel mapModel, MapView mapView, PlayerViewInfo playerViewInfo) {
         super();
         this.playerModel = playerModel;
         this.mapModel = mapModel;
         this.mapView = mapView;
+        this.playerViewInfo = playerViewInfo;
         killButton = new JButton("KILL");
         interactButton = new JButton("INTERACT");
         mixKejuButton = new JButton("MIX KEJU");
@@ -50,12 +52,14 @@ public class PlayerViewAction extends JPanel {
     }
 
     public void addListenerKill() {
-        FarmAnimal targetAnimal = mapModel.animalIsAroundPlayer();
         killButton.addActionListener(actionEvent -> {
+            FarmAnimal targetAnimal = mapModel.animalIsAroundPlayer();
             if (targetAnimal != null) {
+                System.out.println("animal ada");
                 if (targetAnimal.isProductReady) {
                     mapModel.playerModel.kill(targetAnimal);
                     mapModel.mapAnimals.values().remove(targetAnimal);
+                    System.out.println("animal killed");
                 }
             }
             System.out.println("killButton pressed");
@@ -74,16 +78,14 @@ public class PlayerViewAction extends JPanel {
     }
 
     public void addListenerInteract() {
-        FarmAnimal targetAnimal = mapModel.animalIsAroundPlayer();
-        Point playerPoint = mapModel.playerModel.getPoint();
-        Point truckPoint = mapModel.truck.getPoint();
-        Point wellPoint = mapModel.well.getPoint();
-        PlayerModel playerModel = mapModel.playerModel;
-        Truck truck = mapModel.truck;
-        Well well = mapModel.well;
-
-
         interactButton.addActionListener(actionEvent -> {
+            FarmAnimal targetAnimal = mapModel.animalIsAroundPlayer();
+            Point playerPoint = mapModel.playerModel.getPoint();
+            Point truckPoint = mapModel.truck.getPoint();
+            Point wellPoint = mapModel.well.getPoint();
+            PlayerModel playerModel = mapModel.playerModel;
+            Truck truck = mapModel.truck;
+            Well well = mapModel.well;
             if (targetAnimal != null) {
                 try {
                     playerModel.interact(targetAnimal);
@@ -100,10 +102,9 @@ public class PlayerViewAction extends JPanel {
     }
 
     public void addListenerMixBurger() {
-        Point playerPoint = mapModel.playerModel.getPoint();
-        Point mixerPoint = mapModel.mixer.getPoint();
-
         mixBurgerButton.addActionListener(actionEvent -> {
+            Point playerPoint = mapModel.playerModel.getPoint();
+            Point mixerPoint = mapModel.mixer.getPoint();
             if ((int) playerPoint.distanceSq(mixerPoint) < 2)
                 mapModel.mixer.mix(mapModel.playerModel.getInventory(), new Burger());
             System.out.println("mixBurgerButton pressed");
@@ -112,10 +113,9 @@ public class PlayerViewAction extends JPanel {
     }
 
     public void addListenerMixKeju() {
-        Point playerPoint = mapModel.playerModel.getPoint();
-        Point mixerPoint = mapModel.mixer.getPoint();
-
         mixKejuButton.addActionListener(actionEvent -> {
+            Point playerPoint = mapModel.playerModel.getPoint();
+            Point mixerPoint = mapModel.mixer.getPoint();
             if ((int) playerPoint.distanceSq(mixerPoint) < 2)
                 mapModel.mixer.mix(mapModel.playerModel.getInventory(), new Keju());
             System.out.println("mixBurgerButton pressed");
@@ -124,10 +124,9 @@ public class PlayerViewAction extends JPanel {
     }
 
     public void addListenerMixSate() {
-        Point playerPoint = mapModel.playerModel.getPoint();
-        Point mixerPoint = mapModel.mixer.getPoint();
-
         mixSateButton.addActionListener(actionEvent -> {
+            Point playerPoint = mapModel.playerModel.getPoint();
+            Point mixerPoint = mapModel.mixer.getPoint();
             if ((int) playerPoint.distanceSq(mixerPoint) < 2)
                 mapModel.mixer.mix(mapModel.playerModel.getInventory(), new Sate());
             System.out.println("mixBurgerButton pressed");

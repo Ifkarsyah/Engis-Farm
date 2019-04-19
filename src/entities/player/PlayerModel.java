@@ -45,16 +45,8 @@ public class PlayerModel extends Renderable {
         return water;
     }
 
-    public void setWater(int water) {
-        this.water = water;
-    }
-
     public int getMoney() {
         return money;
-    }
-
-    public void setMoney(int money) {
-        this.money = money;
     }
 
     /**
@@ -78,7 +70,7 @@ public class PlayerModel extends Renderable {
 
     /**
      * Refill player's water when interacting with well
-     * I.S: Random (TODO: what 'sembarang' means in English? Replace with it!
+     * I.S: Random
      * F.S: player's water added 100
      *
      * @param well the well player's interacting with

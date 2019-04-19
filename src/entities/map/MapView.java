@@ -112,5 +112,6 @@ public class MapView extends JPanel {
                     map[i][j].setText(String.valueOf(mapModel.mapLands.get(currentPoint).render()));
             }
         }
+        System.out.println(mapModel.playerModel);
     }
 }

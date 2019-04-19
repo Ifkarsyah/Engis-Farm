@@ -20,5 +20,7 @@ public class PlayerViewInfo extends JPanel {
         add(inventoryView);
         add(moneyView);
         add(waterView);
+
+
     }
 }
