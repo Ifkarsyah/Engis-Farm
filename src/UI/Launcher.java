@@ -7,7 +7,7 @@ import javax.swing.*;
 import java.awt.*;
 
 class Launcher {
-    static Game game = new Game();
+    private static final Game game = new Game();
 
     public static void main(String[] args) {
         javax.swing.SwingUtilities.invokeLater(() -> {
@@ -15,9 +15,9 @@ class Launcher {
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 
-            frame.add(game.mapView, BorderLayout.CENTER);
-            frame.add(game.playerViewInfo, BorderLayout.EAST);
-            frame.add(game.playerViewAction, BorderLayout.SOUTH);
+            frame.add(game.mapController.mapView, BorderLayout.CENTER);
+            frame.add(game.playerController.playerViewInfo, BorderLayout.EAST);
+            frame.add(game.playerController.playerViewAction, BorderLayout.SOUTH);
 
             frame.pack();
             frame.setVisible(true);

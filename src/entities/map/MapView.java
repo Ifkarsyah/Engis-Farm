@@ -3,16 +3,13 @@ package entities.map;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 
 import static meta.Constant.sizeColMap;
 import static meta.Constant.sizeRowMap;
 
 public class MapView extends JPanel {
-    public final MapModel mapModel;
-
-    public JButton[][] map = new JButton[sizeRowMap][sizeColMap];
+    public final JButton[][] map = new JButton[sizeRowMap][sizeColMap];
+    private final MapModel mapModel;
 
     public MapView(MapModel mapModel) {
         super(new GridLayout(sizeRowMap, sizeColMap));
@@ -21,9 +18,6 @@ public class MapView extends JPanel {
 
         initMapEntities();
         initColorMapLands();
-        addKeyListenerPlayerMove();
-
-
     }
 
     private void initMapEntities() {
@@ -56,41 +50,6 @@ public class MapView extends JPanel {
         for (int i = 0; i < 6; i++)
             for (int j = 4; j < 8; j++)
                 map[i][j].setBackground(Color.red);
-    }
-
-    public void addKeyListenerPlayerMove() {
-        for (int i = 0; i < sizeRowMap; i++)
-            for (int j = 0; j < sizeColMap; j++) {
-                map[i][j].addKeyListener(new KeyListener() {
-                    @Override
-                    public void keyTyped(KeyEvent keyEvent) {
-                    }
-
-                    @Override
-                    public void keyPressed(KeyEvent keyEvent) {
-                        int keyCode = keyEvent.getKeyCode();
-                        switch (keyCode) {
-                            case KeyEvent.VK_LEFT:
-                                mapModel.playerMove(0, -1);
-                                break;
-                            case KeyEvent.VK_DOWN:
-                                mapModel.playerMove(1, 0);
-                                break;
-                            case KeyEvent.VK_RIGHT:
-                                mapModel.playerMove(0, 1);
-                                break;
-                            case KeyEvent.VK_UP:
-                                mapModel.playerMove(-1, 0);
-                                break;
-                        }
-                        updateMap();
-                    }
-
-                    @Override
-                    public void keyReleased(KeyEvent keyEvent) {
-                    }
-                });
-            }
     }
 
     public void updateMap() {

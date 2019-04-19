@@ -2,10 +2,11 @@ package entities.player;
 
 import javax.swing.*;
 
+@SuppressWarnings("unchecked")
 public class PlayerViewInfo extends JPanel {
-    JButton moneyView;
-    JButton waterView;
-    JList inventoryView;
+    private final JButton moneyView;
+    private final JButton waterView;
+    private final JList inventoryView;
 
 
     public PlayerViewInfo(PlayerModel playerModel) {
