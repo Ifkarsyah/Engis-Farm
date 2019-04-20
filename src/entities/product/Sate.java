@@ -1,7 +1,13 @@
 package entities.product;
 
-
+/**
+ * ! \class Sate merupakan turunan dari kelas SideProduct
+ */
 public class Sate extends SideProduct {
+    /**
+     * ! \brief ctor, inisialisasi Harga dan nama Produk pada kelas SideProduct,
+     * serta bahan bahan dari kelas Product yang dibutuhkan untuk membuat Sate
+     */
     public Sate() {
         super(45000, "Sate");
         ingredients.add(new DagingAyam());
