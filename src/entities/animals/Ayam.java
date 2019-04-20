@@ -57,6 +57,9 @@ public class Ayam extends FarmAnimal {
 
     @Override
     public ImageIcon renderGUI(){
-        return new ImageIcon("img/Ayam.png");
+        if (hungryPoint > 5)
+            return new ImageIcon("img/Ayam.png");
+        else
+            return new ImageIcon("img/Ayam-hungry.png");
     }
 }

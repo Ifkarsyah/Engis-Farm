@@ -46,6 +46,9 @@ public class Kelinci extends FarmAnimal {
 
     @Override
     public ImageIcon renderGUI(){
-        return new ImageIcon("img/Kelinci.png");
+        if (hungryPoint > 5)
+            return new ImageIcon("img/Kelinci.png");
+        else
+            return new ImageIcon("img/Kelinci-hungry.png");
     }
 }

@@ -48,6 +48,9 @@ public class Domba extends FarmAnimal {
 
     @Override
     public ImageIcon renderGUI(){
-        return new ImageIcon("img/Domba.png");
+        if (hungryPoint > 5)
+            return new ImageIcon("img/Domba.png");
+        else
+            return new ImageIcon("img/Domba-hungry.png");
     }
 }

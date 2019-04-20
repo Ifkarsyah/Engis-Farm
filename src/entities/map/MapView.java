@@ -40,18 +40,33 @@ public class MapView extends JPanel {
     }
 
     private void setIconCurrentPoint(int i, int j, Point currentPoint) {
-        if (currentPoint.equals(mapModel.playerModel.getPoint()))
+        if (currentPoint.equals(mapModel.playerModel.getPoint())){
             map[i][j].setIcon(mapModel.playerModel.renderGUI());
-        else if (currentPoint.equals(mapModel.truck.getPoint()))
+            map[i][j].setBackground(Color.white);
+        }
+        else if (currentPoint.equals(mapModel.truck.getPoint())){
             map[i][j].setIcon(mapModel.truck.renderGUI());
-        else if (currentPoint.equals(mapModel.mixer.getPoint()))
+            map[i][j].setBackground(Color.white);
+        }
+        else if (currentPoint.equals(mapModel.mixer.getPoint())){
             map[i][j].setIcon(mapModel.mixer.renderGUI());
-        else if (currentPoint.equals(mapModel.well.getPoint()))
+            map[i][j].setBackground(Color.white);
+        }
+        else if (currentPoint.equals(mapModel.well.getPoint())){
             map[i][j].setIcon(mapModel.well.renderGUI());
-        else if (mapModel.mapAnimals.containsKey(currentPoint))
+            map[i][j].setBackground(Color.white);
+        }
+        else if (mapModel.mapAnimals.containsKey(currentPoint)){
             map[i][j].setIcon(mapModel.mapAnimals.get(currentPoint).renderGUI());
-        else
+            if (mapModel.mapAnimals.get(currentPoint).getHungryPoint() > 5)
+                map[i][j].setBackground(Color.white);
+            else
+                map[i][j].setBackground(Color.black);
+        }
+        else{
             map[i][j].setIcon(mapModel.mapLands.get(currentPoint).renderGUI());
+            map[i][j].setBackground(Color.white);
+        }
     }
 
     public void updateMap() {
@@ -69,7 +84,7 @@ public class MapView extends JPanel {
             JButton gameOver = new JButton();
             gameOver.setIcon(new ImageIcon("img/GameOver.png"));
             jDialog.add(gameOver);
-            jDialog.setSize(300, 300);
+            jDialog.setSize(500, 500);
             jDialog.setLocationRelativeTo(null);
             jDialog.setVisible(true);
             gameOver.addActionListener(actionEvent -> {

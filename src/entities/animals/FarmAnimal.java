@@ -16,7 +16,7 @@ public abstract class FarmAnimal extends Renderable {
 
     public boolean isProductReady = true; // <! Atribut yang menandakan apakah fungsi GetProduct bisa digunakan pada
                                           // sebuah kelas binatang
-    private int hungryPoint; // <! Atribut yang menandakan status tingkat kelaparan hewan
+    protected int hungryPoint; // <! Atribut yang menandakan status tingkat kelaparan hewan
     final String sound;
 
     /**
@@ -96,5 +96,9 @@ public abstract class FarmAnimal extends Renderable {
 
     public String getSound() {
         return sound;
+    }
+
+    public int getHungryPoint() {
+        return hungryPoint;
     }
 }

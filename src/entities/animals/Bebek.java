@@ -62,6 +62,9 @@ public class Bebek extends FarmAnimal {
 
     @Override
     public ImageIcon renderGUI(){
-        return new ImageIcon("img/Bebek.png");
+        if (hungryPoint > 5)
+            return new ImageIcon("img/Bebek.png");
+        else
+            return new ImageIcon("img/Bebek-hungry.png");
     }
 }
