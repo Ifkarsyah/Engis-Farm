@@ -15,15 +15,19 @@ public class Assets {
     public static Image Kambing;
     public static Image Sapi;
     public static Image Unta;
+    public static Image Unta;
+    public static Image Unta;
+    public static Image Unta;
+    public static Image Unta;
 
     public void init(){
         try{
-            Ayam = ImageIO.read(getClass().getResource("img/"));
-            Bebek = ImageIO.read(getClass().getResource("img/"));
-            Domba = ImageIO.read(getClass().getResource("img/"));
-            Kambing = ImageIO.read(getClass().getResource("img/"));
-            Sapi = ImageIO.read(getClass().getResource("img/"));
-            Unta = ImageIO.read(getClass().getResource("img/"));
+            Ayam = ImageIO.read(getClass().getResource("img/Ayam.png"));
+            Bebek = ImageIO.read(getClass().getResource("img/Bebek.png"));
+            Domba = ImageIO.read(getClass().getResource("img/Domba.pnd"));
+            Kambing = ImageIO.read(getClass().getResource("img/Kambing.png"));
+            Sapi = ImageIO.read(getClass().getResource("img/Sapi.png"));
+            Unta = ImageIO.read(getClass().getResource("img/UNta.png"));
         } catch (IOException e) {
             e.printStackTrace();
             System.exit(1);
