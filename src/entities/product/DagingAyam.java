@@ -5,7 +5,7 @@ package entities.product;
  */
 public class DagingAyam extends Product {
     /**
-     * \brief Default Ctor, inisiasi harga dan nama produk
+     * Default Ctor, inisiasi harga dan nama produk
      */
     public DagingAyam() {
         super(30000, "DagingAyam");

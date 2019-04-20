@@ -10,14 +10,16 @@ import entities.product.Product;
 public class Domba extends FarmAnimal {
 
     /*
-     * ! \brief Ctor \param name String berisi nama dari binatang Domba tersebut
+     * Ctor
+     * @param name String berisi nama dari binatang Domba tersebut
      */
     public Domba(String name) {
         super(name, 15);
     }
 
     /*
-     * ! \brief Menghasilkan DagingDomba dari kelas Domba \return DagingDomba
+     * Menghasilkan DagingDomba dari kelas Domba 
+     * @return DagingDomba
      */
     @Override
     public Product getAnimalMeat() {
@@ -25,7 +27,7 @@ public class Domba extends FarmAnimal {
     }
 
     /*
-     * ! \brief Menghasilkan suara Domba
+     * Menghasilkan suara Domba
      */
     @Override
     public void makeSound() {
@@ -33,7 +35,8 @@ public class Domba extends FarmAnimal {
     }
 
     /*
-     * \brief Menghasilkan icon Domba 'D' \return char
+     * Menghasilkan icon Domba 'D' 
+     * @return char
      * 
      */
     @Override

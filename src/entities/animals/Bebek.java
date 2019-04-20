@@ -11,14 +11,19 @@ import entities.product.TelurBebek;
 public class Bebek extends FarmAnimal {
 
     /*
-     * ! \brief Ctor \param name String berisi nama dari binatang Bebek tersebut
+     * Ctor
+     * 
+     * @param name String berisi nama dari binatang Bebek tersebut
+     * 
      */
     public Bebek(String name) {
         super(name, 10);
     }
 
     /*
-     * \brief Menghasilkan produk telur Bebek dari kelas Bebek \return TelurBebek
+     * Menghasilkan produk telur Bebek dari kelas Bebek 
+     * 
+     * @return TelurBebek
      */
     @Override
     public Product getProduct() {
@@ -26,7 +31,9 @@ public class Bebek extends FarmAnimal {
     }
 
     /*
-     * \brief Menghasilkan DagingBebek dari kelas Bebek \return DagingBebek
+     * Menghasilkan DagingBebek dari kelas Bebek
+     * 
+     * @return DagingBebek
      */
     @Override
     public Product getAnimalMeat() {
@@ -34,7 +41,7 @@ public class Bebek extends FarmAnimal {
     }
 
     /*
-     * \brief Menghasilkan suara Bebek
+     * Menghasilkan suara Bebek
      */
     @Override
     public void makeSound() {
@@ -42,8 +49,9 @@ public class Bebek extends FarmAnimal {
     }
 
     /*
-     * \brief Menghasilkan icon Bebek 'A' \return char
+     * Menghasilkan icon Bebek 'A'
      * 
+     * @return char
      */
     @Override
     public char render() {

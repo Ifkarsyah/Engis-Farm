@@ -12,7 +12,10 @@ public abstract class SideProduct extends Product {
                                                   // membuatSideProduct, berbeda untuk setiap SideProduct.
 
     /**
-     * ! \brief Ctor, inisiasi harga dan tipe side product melalui kelas turunannya
+     * Ctor, inisiasi harga dan tipe side product melalui kelas turunannya
+     * @param price harga produk
+     * @param type String tipe produk
+     * 
      */
     SideProduct(int price, String type) {
         super(price, type);

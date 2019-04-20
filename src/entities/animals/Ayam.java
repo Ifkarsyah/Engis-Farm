@@ -10,14 +10,16 @@ import entities.product.TelurAyam;
  */
 public class Ayam extends FarmAnimal {
     /*
-     * ! \brief Ctor \param name String berisi nama dari binatang Ayam tersebut
+     * Ctor
+     * @param name String berisi nama dari binatang Ayam tersebut
      */
     public Ayam(String name) {
         super(name, 10);
     }
 
     /*
-     * ! \brief Menghasilkan produk telur Ayam dari kelas Ayam \return TelurAyam
+     * Menghasilkan produk telur Ayam dari kelas Ayam \return TelurAyam
+     * @return TelurAyam
      */
     @Override
     public Product getProduct() {
@@ -25,7 +27,8 @@ public class Ayam extends FarmAnimal {
     }
 
     /*
-     * ! \brief Menghasilkan DagingAyam dari kelas Ayam \return DagingAyam
+     * Menghasilkan DagingAyam dari kelas Ayam \return DagingAyam
+     * @return DagingAyam
      */
     @Override
     public Product getAnimalMeat() {
@@ -33,7 +36,7 @@ public class Ayam extends FarmAnimal {
     }
 
     /*
-     * ! \brief Menghasilkan suara Ayam
+     * Menghasilkan suara Ayam
      */
     @Override
     public void makeSound() {
@@ -41,7 +44,7 @@ public class Ayam extends FarmAnimal {
     }
 
     /*
-     * ! \brief Menghasilkan icon Ayam 'A' \return char
+     * Menghasilkan icon Ayam 'A' \return char
      * 
      */
     @Override
