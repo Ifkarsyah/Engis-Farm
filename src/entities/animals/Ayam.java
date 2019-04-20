@@ -16,7 +16,7 @@ public class Ayam extends FarmAnimal {
      * @param name String berisi nama dari binatang Ayam tersebut
      */
     public Ayam(String name) {
-        super(name, 10, "Petok, petok!");
+        super(name, 20, "Petok, petok!");
     }
 
     /**

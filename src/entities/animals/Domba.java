@@ -16,7 +16,7 @@ public class Domba extends FarmAnimal {
      * @param name String berisi nama dari binatang Domba tersebut
      */
     public Domba(String name) {
-        super(name, 15, "Mbeek!");
+        super(name, 30, "Mbeek!");
     }
 
     /**

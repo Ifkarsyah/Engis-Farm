@@ -19,7 +19,7 @@ public class Bebek extends FarmAnimal {
      * 
      */
     public Bebek(String name) {
-        super(name, 10, "Wik, wik!");
+        super(name, 20, "Wik, wik!");
     }
 
     /**

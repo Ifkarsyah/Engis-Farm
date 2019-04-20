@@ -14,7 +14,6 @@ class Launcher {
             JFrame frame = new JFrame("Engi's Farm");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-
             frame.add(game.mapController.mapView, BorderLayout.CENTER);
             frame.add(game.playerController.playerViewInfo, BorderLayout.EAST);
             frame.add(game.playerController.playerViewAction, BorderLayout.SOUTH);

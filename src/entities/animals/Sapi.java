@@ -18,7 +18,7 @@ public class Sapi extends FarmAnimal {
      * @param name String berisi nama dari binatang Sapi tersebut
      */
     public Sapi(String name) {
-        super(name, 20, "Moooo!");
+        super(name, 40, "Moooo!");
     }
 
     /**

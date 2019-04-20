@@ -15,7 +15,7 @@ public class Kelinci extends FarmAnimal {
      * @param name
      */
     public Kelinci(String name) {
-        super(name, 10, "Hop! Hop!");
+        super(name, 30, "Hop! Hop!");
     }
 
     /**

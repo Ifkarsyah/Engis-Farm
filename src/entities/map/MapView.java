@@ -24,7 +24,6 @@ public class MapView extends JPanel {
         this.mapModel = mapModel;
 
         initMapEntities();
-        initColorMapLands();
         mapModel.updateTick();
     }
 
@@ -32,32 +31,27 @@ public class MapView extends JPanel {
         for (int i = 0; i < sizeRowMap; i++) {
             for (int j = 0; j < sizeColMap; j++) {
                 Point currentPoint = new Point(i, j);
-                if (currentPoint.equals(mapModel.playerModel.getPoint()))
-                    map[i][j] = new JButton(String.valueOf(mapModel.playerModel.render()));
-                else if (currentPoint.equals(mapModel.truck.getPoint()))
-                    map[i][j] = new JButton(String.valueOf(mapModel.truck.render()));
-                else if (currentPoint.equals(mapModel.mixer.getPoint()))
-                    map[i][j] = new JButton(String.valueOf(mapModel.mixer.render()));
-                else if (currentPoint.equals(mapModel.well.getPoint()))
-                    map[i][j] = new JButton(String.valueOf(mapModel.well.render()));
-                else if (mapModel.mapAnimals.containsKey(currentPoint))
-                    map[i][j] = new JButton(String.valueOf(mapModel.mapAnimals.get(currentPoint).render()));
-                else
-                    map[i][j] = new JButton(String.valueOf(mapModel.mapLands.get(currentPoint).render()));
+                map[i][j] = new JButton();
+                setIconCurrentPoint(i, j, currentPoint);
+
                 add(map[i][j]);
             }
         }
     }
-    private void initColorMapLands() {
-        for (int i = 0; i < sizeRowMap; i++)
-            for (int j = 0; j < sizeColMap; j++)
-                map[i][j].setBackground(Color.green);
-        for (int i = 0; i < 3; i++)
-            for (int j = 0; j < 3; j++)
-                map[i][j].setBackground(Color.yellow);
-        for (int i = 0; i < 6; i++)
-            for (int j = 4; j < 8; j++)
-                map[i][j].setBackground(Color.red);
+
+    private void setIconCurrentPoint(int i, int j, Point currentPoint) {
+        if (currentPoint.equals(mapModel.playerModel.getPoint()))
+            map[i][j].setIcon(mapModel.playerModel.renderGUI());
+        else if (currentPoint.equals(mapModel.truck.getPoint()))
+            map[i][j].setIcon(mapModel.truck.renderGUI());
+        else if (currentPoint.equals(mapModel.mixer.getPoint()))
+            map[i][j].setIcon(mapModel.mixer.renderGUI());
+        else if (currentPoint.equals(mapModel.well.getPoint()))
+            map[i][j].setIcon(mapModel.well.renderGUI());
+        else if (mapModel.mapAnimals.containsKey(currentPoint))
+            map[i][j].setIcon(mapModel.mapAnimals.get(currentPoint).renderGUI());
+        else
+            map[i][j].setIcon(mapModel.mapLands.get(currentPoint).renderGUI());
     }
 
     public void updateMap() {
@@ -65,30 +59,7 @@ public class MapView extends JPanel {
         for (int i = 0; i < sizeRowMap; i++) {
             for (int j = 0; j < sizeColMap; j++) {
                 Point currentPoint = new Point(i, j);
-                if (currentPoint.equals(mapModel.playerModel.getPoint())){
-//                     map[i][j].setText(String.valueOf(mapModel.playerModel.render()));
-                    map[i][j].setIcon(mapModel.playerModel.renderGUI());
-                }
-                else if (currentPoint.equals(mapModel.truck.getPoint())){
-//                    map[i][j].setText(String.valueOf(mapModel.truck.render()));
-                    map[i][j].setIcon(mapModel.truck.renderGUI());
-                }
-                else if (currentPoint.equals(mapModel.mixer.getPoint())){
-//                    map[i][j].setText(String.valueOf(mapModel.mixer.render()));
-                    map[i][j].setIcon(mapModel.mixer.renderGUI());
-                }
-                else if (currentPoint.equals(mapModel.well.getPoint())){
-//                    map[i][j].setText(String.valueOf(mapModel.well.render()));
-                    map[i][j].setIcon(mapModel.well.renderGUI());
-                }
-                else if (mapModel.mapAnimals.containsKey(currentPoint)){
-//                     map[i][j].setText(String.valueOf(mapModel.mapAnimals.get(currentPoint).render()));
-                    map[i][j].setIcon(mapModel.mapAnimals.get(currentPoint).renderGUI());
-                }
-                else {
-//                     map[i][j].setText(String.valueOf(mapModel.mapLands.get(currentPoint).render()));
-                    map[i][j].setIcon(mapModel.mapLands.get(currentPoint).renderGUI());
-                }
+                setIconCurrentPoint(i, j, currentPoint);
             }
         }
         System.out.println(mapModel.playerModel);

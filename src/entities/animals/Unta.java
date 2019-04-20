@@ -16,7 +16,7 @@ public class Unta extends FarmAnimal {
      * 
      */
     public Unta(String name) {
-        super(name, 20, "Alhamdulillah");
+        super(name, 40, "Alhamdulillah");
     }
 
     /**
