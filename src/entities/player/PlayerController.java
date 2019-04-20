@@ -41,8 +41,11 @@ public class PlayerController {
                     mapController.mapModel.playerModel.talk(targetAnimal);
                     JDialog jDialog = new JDialog();
                     jDialog.setTitle(targetAnimal.getName());
-                    jDialog.add(new JLabel(targetAnimal.getSound()));
-                    jDialog.setSize(100, 100);
+                    JLabel text = new JLabel(targetAnimal.getSound());
+                    text.setIcon(targetAnimal.renderGUI());
+                    jDialog.add(text);
+                    jDialog.setSize(200, 200);
+                    jDialog.setLocationRelativeTo(null);
                     jDialog.setVisible(true);
                 }
             }

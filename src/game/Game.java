@@ -17,5 +17,6 @@ public class Game {
         MapModel mapModel = new MapModel();
         mapController = new MapController(mapModel, new MapView(mapModel));
         playerController = new PlayerController(mapController.mapModel.playerModel, mapController, new PlayerViewInfo(mapController.mapModel.playerModel), new PlayerViewAction(mapController.mapModel, mapController.mapView));
+
     }
 }
