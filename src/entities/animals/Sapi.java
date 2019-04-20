@@ -4,13 +4,13 @@ import entities.product.DagingSapi;
 import entities.product.Product;
 import entities.product.SusuSapi;
 
-/*
+/**
  * Sapi binatang turunan dari FarmAnimal
  * 
  */
 public class Sapi extends FarmAnimal {
 
-    /*
+    /**
      * Ctor 
      * 
      * @param name String berisi nama dari binatang Sapi tersebut
@@ -19,7 +19,7 @@ public class Sapi extends FarmAnimal {
         super(name, 20);
     }
 
-    /*
+    /**
      * Menghasilkan produk susu Sapi dari kelas Sapi 
      * @return SusuSapi
      * 
@@ -29,7 +29,7 @@ public class Sapi extends FarmAnimal {
         return new SusuSapi();
     }
 
-    /*
+    /**
      * Menghasilkan DagingSapi dari kelas Sapi 
      * @return DagingSapi
      */
@@ -38,7 +38,7 @@ public class Sapi extends FarmAnimal {
         return new DagingSapi();
     }
 
-    /*
+    /**
      * Menghasilkan suara Sapi
      */
     @Override
@@ -46,7 +46,7 @@ public class Sapi extends FarmAnimal {
         System.out.println(name + ": Mooooooo!");
     }
 
-    /*
+    /**
      * Menghasilkan icon Sapi 'S' 
      * @return char
      * 

@@ -3,7 +3,7 @@ package entities.animals;
 import entities.product.DagingDomba;
 import entities.product.Product;
 
-/*!
+/**
  * Domba binatang turunan dari FarmAnimal
  * 
  */
@@ -26,7 +26,7 @@ public class Domba extends FarmAnimal {
         return new DagingDomba();
     }
 
-    /*
+    /**
      * Menghasilkan suara Domba
      */
     @Override

@@ -4,12 +4,12 @@ import entities.product.DagingAyam;
 import entities.product.Product;
 import entities.product.TelurAyam;
 
-/*
+/**
  * Ayam binatang turunan dari FarmAnimal
  * 
  */
 public class Ayam extends FarmAnimal {
-    /*
+    /**
      * Ctor
      * @param name String berisi nama dari binatang Ayam tersebut
      */
@@ -17,7 +17,7 @@ public class Ayam extends FarmAnimal {
         super(name, 10);
     }
 
-    /*
+    /**
      * Menghasilkan produk telur Ayam dari kelas Ayam \return TelurAyam
      * @return TelurAyam
      */
@@ -26,7 +26,7 @@ public class Ayam extends FarmAnimal {
         return new TelurAyam();
     }
 
-    /*
+    /**
      * Menghasilkan DagingAyam dari kelas Ayam \return DagingAyam
      * @return DagingAyam
      */
@@ -35,7 +35,7 @@ public class Ayam extends FarmAnimal {
         return new DagingAyam();
     }
 
-    /*
+    /**
      * Menghasilkan suara Ayam
      */
     @Override
@@ -43,7 +43,7 @@ public class Ayam extends FarmAnimal {
         System.out.println(name + ": Petok, petok!");
     }
 
-    /*
+    /**
      * Menghasilkan icon Ayam 'A' \
      * @return char
      * 

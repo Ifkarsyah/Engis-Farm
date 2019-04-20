@@ -10,7 +10,7 @@ import entities.product.TelurBebek;
  */
 public class Bebek extends FarmAnimal {
 
-    /*
+    /**
      * Ctor
      * 
      * @param name String berisi nama dari binatang Bebek tersebut
@@ -20,7 +20,7 @@ public class Bebek extends FarmAnimal {
         super(name, 10);
     }
 
-    /*
+    /**
      * Menghasilkan produk telur Bebek dari kelas Bebek 
      * 
      * @return TelurBebek
@@ -30,7 +30,7 @@ public class Bebek extends FarmAnimal {
         return new TelurBebek();
     }
 
-    /*
+    /**
      * Menghasilkan DagingBebek dari kelas Bebek
      * 
      * @return DagingBebek
@@ -40,7 +40,7 @@ public class Bebek extends FarmAnimal {
         return new DagingBebek();
     }
 
-    /*
+    /**
      * Menghasilkan suara Bebek
      */
     @Override
@@ -48,7 +48,7 @@ public class Bebek extends FarmAnimal {
         System.out.println(name + ": Wik, wik!");
     }
 
-    /*
+    /**
      * Menghasilkan icon Bebek 'A'
      * 
      * @return char
