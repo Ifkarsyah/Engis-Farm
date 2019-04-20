@@ -66,7 +66,7 @@ public abstract class FarmAnimal extends Renderable {
      * menurunkan FarmAnimal, jika tidak memiliki produk akan melepar Exception dan
      * pengambilan produk gagal
      * 
-     * @return produk dari <Kelas Hewan yang menurunkan FarmAnimal>
+     * @return produk dari Kelas Hewan yang menurunkan FarmAnimal
      * @throws Exception jika tidak memiliki produk "NoProductException"
      */
     public Product getProduct() throws Exception {
@@ -76,7 +76,7 @@ public abstract class FarmAnimal extends Renderable {
     /**
      * ! \brief Fungsi yang mengembalikan daging dari hewan
      * 
-     * @return daging<Kelas Hewan yang menurunkan FarmAnimal>
+     * @return daging Kelas Hewan yang menurunkan FarmAnimal
      * @throws Exception "NoMeatException"
      */
     public Product getAnimalMeat() throws Exception {
