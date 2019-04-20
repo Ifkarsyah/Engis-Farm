@@ -17,7 +17,7 @@ public class Ayam extends FarmAnimal {
     }
 
     /*
-     * \brief Menghasilkan produk telur Ayam dari kelas Ayam \return TelurAyam
+     * ! \brief Menghasilkan produk telur Ayam dari kelas Ayam \return TelurAyam
      */
     @Override
     public Product getProduct() {
@@ -25,7 +25,7 @@ public class Ayam extends FarmAnimal {
     }
 
     /*
-     * \brief Menghasilkan DagingAyam dari kelas Ayam \return DagingAyam
+     * ! \brief Menghasilkan DagingAyam dari kelas Ayam \return DagingAyam
      */
     @Override
     public Product getAnimalMeat() {
@@ -33,7 +33,7 @@ public class Ayam extends FarmAnimal {
     }
 
     /*
-     * \brief Menghasilkan suara Ayam
+     * ! \brief Menghasilkan suara Ayam
      */
     @Override
     public void makeSound() {
@@ -41,7 +41,7 @@ public class Ayam extends FarmAnimal {
     }
 
     /*
-     * \brief Menghasilkan icon Ayam 'A' \return char
+     * ! \brief Menghasilkan icon Ayam 'A' \return char
      * 
      */
     @Override
