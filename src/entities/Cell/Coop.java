@@ -1,5 +1,6 @@
 package entities.Cell;
 
+import javax.swing.*;
 import java.awt.*;
 
 public class Coop extends Land {
@@ -21,5 +22,10 @@ public class Coop extends Land {
     @Override
     public char render() {
         return (isGrassGrown ? '*' : 'o');
+    }
+
+    @Override
+    public ImageIcon renderGUI(){
+        return new ImageIcon("img/Coop.png");
     }
 }

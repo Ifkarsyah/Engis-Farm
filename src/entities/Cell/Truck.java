@@ -1,5 +1,6 @@
 package entities.Cell;
 
+import javax.swing.*;
 import java.awt.*;
 
 public class Truck extends Cell {
@@ -42,5 +43,10 @@ public class Truck extends Cell {
     @Override
     public char render() {
         return 'T';
+    }
+
+    @Override
+    public ImageIcon renderGUI(){
+        return new ImageIcon("img/Truck.png");
     }
 }

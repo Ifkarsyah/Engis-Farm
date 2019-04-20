@@ -3,6 +3,7 @@ package entities.Cell;
 import entities.product.Product;
 import entities.product.SideProduct;
 
+import javax.swing.*;
 import java.awt.*;
 import java.util.LinkedList;
 
@@ -40,5 +41,10 @@ public class Mixer extends Cell {
     @Override
     public char render() {
         return 'M';
+    }
+
+    @Override
+    public ImageIcon renderGUI(){
+        return new ImageIcon("img/Mixer.png");
     }
 }

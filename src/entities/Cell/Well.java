@@ -1,5 +1,6 @@
 package entities.Cell;
 
+import javax.swing.*;
 import java.awt.*;
 
 public class Well extends Cell {
@@ -25,5 +26,10 @@ public class Well extends Cell {
     @Override
     public char render() {
         return 'W';
+    }
+
+    @Override
+    public ImageIcon renderGUI(){
+        return new ImageIcon("img/Well.png");
     }
 }

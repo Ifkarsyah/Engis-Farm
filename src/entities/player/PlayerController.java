@@ -8,6 +8,7 @@ import entities.product.Burger;
 import entities.product.Keju;
 import entities.product.Sate;
 
+import javax.swing.*;
 import java.awt.*;
 
 public class PlayerController {
@@ -38,6 +39,11 @@ public class PlayerController {
             if (targetAnimal != null) {
                 if (targetAnimal.isProductReady) {
                     mapController.mapModel.playerModel.talk(targetAnimal);
+                    JDialog jDialog = new JDialog();
+                    jDialog.setTitle(targetAnimal.getName());
+                    jDialog.add(new JLabel(targetAnimal.getSound()));
+                    jDialog.setSize(100, 100);
+                    jDialog.setVisible(true);
                 }
             }
         });

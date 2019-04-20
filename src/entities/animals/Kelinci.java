@@ -3,6 +3,8 @@ package entities.animals;
 import entities.product.DagingKelinci;
 import entities.product.Product;
 
+import javax.swing.*;
+
 /**
  * Kelinci turunan dari FarmAnimal
  */
@@ -13,7 +15,7 @@ public class Kelinci extends FarmAnimal {
      * @param name
      */
     public Kelinci(String name) {
-        super(name, 10);
+        super(name, 10, "Hop! Hop!");
     }
 
     /**
@@ -42,4 +44,8 @@ public class Kelinci extends FarmAnimal {
         return 'K';
     }
 
+    @Override
+    public ImageIcon renderGUI(){
+        return new ImageIcon("img/Kelinci.png");
+    }
 }

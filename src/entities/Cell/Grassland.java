@@ -1,5 +1,6 @@
 package entities.Cell;
 
+import javax.swing.*;
 import java.awt.*;
 
 public class Grassland extends Land {
@@ -16,5 +17,10 @@ public class Grassland extends Land {
     @Override
     public char render() {
         return (isGrassGrown ? '#' : '-');
+    }
+
+    @Override
+    public ImageIcon renderGUI(){
+        return new ImageIcon("img/Grassland.png");
     }
 }
