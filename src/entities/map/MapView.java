@@ -66,28 +66,29 @@ public class MapView extends JPanel {
             for (int j = 0; j < sizeColMap; j++) {
                 Point currentPoint = new Point(i, j);
                 if (currentPoint.equals(mapModel.playerModel.getPoint())){
-                    // map[i][j].setText(String.valueOf(mapModel.playerModel.render()));
+//                     map[i][j].setText(String.valueOf(mapModel.playerModel.render()));
                     map[i][j].setIcon(mapModel.playerModel.renderGUI());
                 }
                 else if (currentPoint.equals(mapModel.truck.getPoint())){
-                    map[i][j].setText(String.valueOf(mapModel.truck.render()));
+//                    map[i][j].setText(String.valueOf(mapModel.truck.render()));
                     map[i][j].setIcon(mapModel.truck.renderGUI());
                 }
                 else if (currentPoint.equals(mapModel.mixer.getPoint())){
-                    map[i][j].setText(String.valueOf(mapModel.mixer.render()));
+//                    map[i][j].setText(String.valueOf(mapModel.mixer.render()));
                     map[i][j].setIcon(mapModel.mixer.renderGUI());
+
                 }
 
                 else if (currentPoint.equals(mapModel.well.getPoint())){
-                    map[i][j].setText(String.valueOf(mapModel.well.render()));
+//                    map[i][j].setText(String.valueOf(mapModel.well.render()));
                     map[i][j].setIcon(mapModel.well.renderGUI());
                 }
                 else if (mapModel.mapAnimals.containsKey(currentPoint)){
-                    // map[i][j].setText(String.valueOf(mapModel.mapAnimals.get(currentPoint).render()));
+//                     map[i][j].setText(String.valueOf(mapModel.mapAnimals.get(currentPoint).render()));
                     map[i][j].setIcon(mapModel.mapAnimals.get(currentPoint).renderGUI());
                 }
                 else{
-                    // map[i][j].setText(String.valueOf(mapModel.mapLands.get(currentPoint).render()));
+//                     map[i][j].setText(String.valueOf(mapModel.mapLands.get(currentPoint).render()));
                     map[i][j].setIcon(mapModel.mapLands.get(currentPoint).renderGUI());
                 }
             }

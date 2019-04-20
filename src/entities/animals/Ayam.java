@@ -57,6 +57,6 @@ public class Ayam extends FarmAnimal {
 
     @Override
     public ImageIcon renderGUI(){
-        return new ImageIcon("img/Ayam.java");
+        return new ImageIcon("img/Ayam.png");
     }
 }
