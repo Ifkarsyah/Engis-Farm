@@ -4,6 +4,8 @@ import entities.product.DagingUnta;
 import entities.product.Product;
 import entities.product.SusuUnta;
 
+import javax.swing.*;
+
 /**
  * Unta, Turunan dari kelas FarmAnimal
  */
@@ -14,7 +16,7 @@ public class Unta extends FarmAnimal {
      * 
      */
     public Unta(String name) {
-        super(name, 20);
+        super(name, 20, "Alhamdulillah");
     }
 
     /**
@@ -50,5 +52,10 @@ public class Unta extends FarmAnimal {
     @Override
     public char render() {
         return 'U';
+    }
+
+    @Override
+    public ImageIcon renderGUI() {
+        return new ImageIcon("img/Unta.png");
     }
 }

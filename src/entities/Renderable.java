@@ -1,5 +1,7 @@
 package entities;
 
+import javax.swing.*;
+
 /**
  * Kelas abstrak yang menghasilkan char unik untuk
  * setiap kelas turunannya untuk ditampilkan pada GUI
@@ -13,5 +15,9 @@ public abstract class Renderable {
      */
     public char render() {
         return 0;
+    }
+
+    public ImageIcon renderGUI() {
+        return null;
     }
 }

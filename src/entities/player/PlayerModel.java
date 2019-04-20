@@ -7,6 +7,7 @@ import entities.Renderable;
 import entities.animals.FarmAnimal;
 import entities.product.Product;
 
+import javax.swing.*;
 import java.awt.*;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -163,5 +164,10 @@ public class PlayerModel extends Renderable {
     @Override
     public String toString() {
         return "" + ("Money: " + money + "\n") + ("Water: " + water + "\n") + ("Inventory: " + Arrays.toString(inventory.toArray()) + "\n");
+    }
+
+    @Override
+    public ImageIcon renderGUI(){
+        return new ImageIcon("img/Player.png");
     }
 }

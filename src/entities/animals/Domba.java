@@ -3,6 +3,8 @@ package entities.animals;
 import entities.product.DagingDomba;
 import entities.product.Product;
 
+import javax.swing.*;
+
 /**
  * Domba binatang turunan dari FarmAnimal
  * 
@@ -14,7 +16,7 @@ public class Domba extends FarmAnimal {
      * @param name String berisi nama dari binatang Domba tersebut
      */
     public Domba(String name) {
-        super(name, 15);
+        super(name, 15, "Mbeek!");
     }
 
     /**
@@ -44,4 +46,8 @@ public class Domba extends FarmAnimal {
         return 'D';
     }
 
+    @Override
+    public ImageIcon renderGUI(){
+        return new ImageIcon("img/Domba.png");
+    }
 }

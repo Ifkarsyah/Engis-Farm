@@ -4,6 +4,8 @@ import entities.product.DagingSapi;
 import entities.product.Product;
 import entities.product.SusuSapi;
 
+import javax.swing.*;
+
 /**
  * Sapi binatang turunan dari FarmAnimal
  * 
@@ -16,7 +18,7 @@ public class Sapi extends FarmAnimal {
      * @param name String berisi nama dari binatang Sapi tersebut
      */
     public Sapi(String name) {
-        super(name, 20);
+        super(name, 20, "Moooo!");
     }
 
     /**
@@ -54,6 +56,11 @@ public class Sapi extends FarmAnimal {
     @Override
     public char render() {
         return 'S';
+    }
+
+    @Override
+    public ImageIcon renderGUI() {
+        return new ImageIcon("img/Sapi.png");
     }
 
 }
