@@ -17,3 +17,5 @@ Bila CLASSPATH tidak bisa :
 // Bila setelah ditambahkan ternyata tidak bisa menjalankan program class java lainnya,
 // Berarti lu udah ngapus tanda "." (tanda ini buat nandain bahwa class juga harus dicari di current directory"
 // Untuk restore, silahkan tambakan ":." di akhir CLASSPATH
+
+// Notes : untuk testing, maka kelas-kelas harus sudah ada dalam bentuk .class
