@@ -17,6 +17,7 @@ public abstract class FarmAnimal extends Renderable {
     public boolean isProductReady = true; // <! Atribut yang menandakan apakah fungsi GetProduct bisa digunakan pada
                                           // sebuah kelas binatang
     private int hungryPoint; // <! Atribut yang menandakan status tingkat kelaparan hewan
+    final String sound;
 
     /**
      * Ctor, inisialisasi dengan parameter nama hewan dan waktu lapar hewan
@@ -25,9 +26,10 @@ public abstract class FarmAnimal extends Renderable {
      * @param hungerTime waktu lapar
      * 
      */
-    FarmAnimal(String name, int hungerTime) {
+    FarmAnimal(String name, int hungerTime, String sound) {
         this.name = name;
         this.hungryPoint = this.hungerTime = hungerTime;
+        this.sound = sound;
     }
 
     /**
@@ -87,4 +89,12 @@ public abstract class FarmAnimal extends Renderable {
      * Fungsi abstrak yang mengeluarkan suara hewan sesuai jenis hewannya
      */
     public abstract void makeSound();
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSound() {
+        return sound;
+    }
 }

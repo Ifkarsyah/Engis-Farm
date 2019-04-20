@@ -4,6 +4,8 @@ import entities.product.DagingBebek;
 import entities.product.Product;
 import entities.product.TelurBebek;
 
+import javax.swing.*;
+
 /**
  * Bebek binatang turunan dari FarmAnimal
  * 
@@ -17,7 +19,7 @@ public class Bebek extends FarmAnimal {
      * 
      */
     public Bebek(String name) {
-        super(name, 10);
+        super(name, 10, "Wik, wik!");
     }
 
     /**
@@ -58,4 +60,8 @@ public class Bebek extends FarmAnimal {
         return 'B';
     }
 
+    @Override
+    public ImageIcon renderGUI(){
+        return new ImageIcon("img/Bebek.png");
+    }
 }

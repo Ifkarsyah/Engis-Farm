@@ -4,6 +4,8 @@ import entities.product.DagingAyam;
 import entities.product.Product;
 import entities.product.TelurAyam;
 
+import javax.swing.*;
+
 /**
  * Ayam binatang turunan dari FarmAnimal
  * 
@@ -14,7 +16,7 @@ public class Ayam extends FarmAnimal {
      * @param name String berisi nama dari binatang Ayam tersebut
      */
     public Ayam(String name) {
-        super(name, 10);
+        super(name, 10, "Petok, petok!");
     }
 
     /**
@@ -51,5 +53,10 @@ public class Ayam extends FarmAnimal {
     @Override
     public char render() {
         return 'A';
+    }
+
+    @Override
+    public ImageIcon renderGUI(){
+        return new ImageIcon("img/Ayam.png");
     }
 }
