@@ -1,0 +1,21 @@
+Cara menggunakan JUnit :
+- Install JUnit versi 4.x
+- Taruh file .jar di suatu tempat (misalkan path direktorinya $DIR)
+- jalankan script :
+	export CLASSPATH="${CLASSPATH}:$DIR/junit.jar" //Nama bisa saja tidak junit
+- Cek apakah CLASSPATH sudah berisi path ke junit dengan script :
+	echo $CLASSPATH
+- Kemudian silahkan lakukan test :)
+
+Bila CLASSPATH tidak bisa :
+- script: 
+	sudo gedit /etc/environment
+- tambahkan pada variabel classpath : 
+	$DIR/junit.jar	
+- Restart OS
+// Notes : berbagai variabel CLASSPATH dipisahkan oleh tanda ":".
+// Bila setelah ditambahkan ternyata tidak bisa menjalankan program class java lainnya,
+// Berarti lu udah ngapus tanda "." (tanda ini buat nandain bahwa class juga harus dicari di current directory"
+// Untuk restore, silahkan tambakan ":." di akhir CLASSPATH
+
+// Notes : untuk testing, maka kelas-kelas harus sudah ada dalam bentuk .class

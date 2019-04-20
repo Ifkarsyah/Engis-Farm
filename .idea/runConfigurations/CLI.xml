@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="CLI" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="entities.map.MapControllerCLI" />
+    <option name="MAIN_CLASS_NAME" value="UI.Launcher" />
     <module name="Engi's Farm" />
     <method v="2">
       <option name="Make" enabled="true" />
