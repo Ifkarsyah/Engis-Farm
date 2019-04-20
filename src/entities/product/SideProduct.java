@@ -3,7 +3,7 @@ package entities.product;
 import java.util.LinkedList;
 
 /**
- * ! \class SideProduct \brief Kelas yang berisi objek yang dapat dihasilkan
+ * Kelas yang berisi objek yang dapat dihasilkan
  * dengan kombinasi dari Product dan/atau SideProduct itu sendiri
  */
 public abstract class SideProduct extends Product {

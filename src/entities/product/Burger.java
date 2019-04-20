@@ -1,7 +1,7 @@
 package entities.product;
 
 /**
- * ! \class Burger merupakan turunan dari kelas SideProduct
+ * class Burger merupakan turunan dari kelas SideProduct
  */
 public class Burger extends SideProduct {
     /**

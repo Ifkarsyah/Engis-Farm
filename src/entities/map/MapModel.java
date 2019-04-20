@@ -21,6 +21,12 @@ public class MapModel {
     public Mixer mixer;
     public Well well;
 
+    /**
+     * 
+     * Konstruktor dari Kelas MapModel
+     * 
+     */
+
     public MapModel() {
         initMapLands();
         initMapAnimals();
@@ -29,6 +35,11 @@ public class MapModel {
         this.mixer = new Mixer(new Point(1, 10));
         this.well = new Well(new Point(4, 10));
     }
+
+    /**
+     * Inisialisasi cells pada map
+     * 
+     */
 
     private void initMapLands() {
         for (int i = 0; i < sizeRowMap; i++)
@@ -41,6 +52,11 @@ public class MapModel {
             for (int j = 4; j < 8; j++)
                 mapLands.put(new Point(i, j), new Barn(new Point(i, j)));
     }
+
+    /**
+     * 
+     * Inisialisasi hewan-hewan pada map
+     */
 
     private void initMapAnimals() {
         mapAnimals.put(new Point(0, 0), new Ayam("gracia"));

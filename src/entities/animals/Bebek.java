@@ -4,8 +4,8 @@ import entities.product.DagingBebek;
 import entities.product.Product;
 import entities.product.TelurBebek;
 
-/*!
- * \class Bebek \brief binatang turunan dari FarmAnimal
+/**
+ * Bebek binatang turunan dari FarmAnimal
  * 
  */
 public class Bebek extends FarmAnimal {

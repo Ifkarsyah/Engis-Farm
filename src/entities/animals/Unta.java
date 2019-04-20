@@ -5,18 +5,21 @@ import entities.product.Product;
 import entities.product.SusuUnta;
 
 /**
- * \class Unta \brief Turunan dari kelas FarmAnimal
+ * Unta, Turunan dari kelas FarmAnimal
  */
 public class Unta extends FarmAnimal {
     /**
-     * \brief Ctor \param name String
+     * Ctor 
+     * @param name String
+     * 
      */
     public Unta(String name) {
         super(name, 20);
     }
 
     /**
-     * \brief Menghasilkan produk SusuUnta \return SusuUnta
+     * Menghasilkan produk SusuUnta 
+     * @return SusuUnta
      */
     @Override
     public Product getProduct() {
@@ -24,14 +27,15 @@ public class Unta extends FarmAnimal {
     }
 
     /**
-     * \brief Mengembalikan DagingUnta \return DagingUnta
+     * Mengembalikan DagingUnta 
+     * @return DagingUnta
      */
     public Product getAnimalMeat() {
         return new DagingUnta();
     }
 
     /**
-     * \brief Menghasilkan suara Unta
+     * Menghasilkan suara Unta
      */
     @Override
     public void makeSound() {
@@ -39,7 +43,9 @@ public class Unta extends FarmAnimal {
     }
 
     /**
-     * \brief Menghasilkan icon Unta 'U' yang akan dirender pada GUI
+     * Menghasilkan icon Unta 'U' yang akan dirender pada GUI
+     * 
+     * @return char
      */
     @Override
     public char render() {

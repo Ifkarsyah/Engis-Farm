@@ -1,7 +1,7 @@
 package entities.product;
 
 /**
- * ! \class SusuSapi \brief turunan dari kelas Product
+ * SusuSapi turunan dari kelas Product
  * 
  */
 public class SusuSapi extends Product {

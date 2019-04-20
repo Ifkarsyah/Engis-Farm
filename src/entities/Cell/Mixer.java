@@ -7,9 +7,22 @@ import java.awt.*;
 import java.util.LinkedList;
 
 public class Mixer extends Cell {
+
+    /**
+     * Konstuktor dari mixer
+     * 
+     * @param point
+     */
     public Mixer(Point point) {
         super(point);
     }
+
+
+    /**
+     * Metode untuk melakukan mix
+     * @param playerInventory inventori dari player
+     * @param sideProduct Produk yang ingin dibuat
+     */
 
     public void mix(LinkedList<Product> playerInventory, SideProduct sideProduct) {
         for (Product p : sideProduct.ingredients) {
@@ -18,6 +31,11 @@ public class Mixer extends Cell {
         }
         playerInventory.add(sideProduct);
     }
+
+    /**
+     * Override fungsi render()
+     * @return char
+     */
 
     @Override
     public char render() {

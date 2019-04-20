@@ -1,7 +1,7 @@
 package entities;
 
 /**
- * ! \class Renderable \brief kelas abstrak yang menghasilkan char unik untuk
+ * Kelas abstrak yang menghasilkan char unik untuk
  * setiap kelas turunannya untuk ditampilkan pada GUI
  */
 public abstract class Renderable {

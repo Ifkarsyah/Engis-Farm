@@ -11,6 +11,12 @@ public class MapView extends JPanel {
     public final JButton[][] map = new JButton[sizeRowMap][sizeColMap];
     private final MapModel mapModel;
 
+    /**
+     * Konstruktor kelas MapView
+     * 
+     * @param mapModel
+     */
+
     public MapView(MapModel mapModel) {
         super(new GridLayout(sizeRowMap, sizeColMap));
 

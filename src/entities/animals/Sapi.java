@@ -4,21 +4,25 @@ import entities.product.DagingSapi;
 import entities.product.Product;
 import entities.product.SusuSapi;
 
-/*!
- * \class Sapi \brief binatang turunan dari FarmAnimal
+/*
+ * Sapi binatang turunan dari FarmAnimal
  * 
  */
 public class Sapi extends FarmAnimal {
 
     /*
-     * ! \brief Ctor \param name String berisi nama dari binatang Sapi tersebut
+     * Ctor 
+     * 
+     * @param name String berisi nama dari binatang Sapi tersebut
      */
     public Sapi(String name) {
         super(name, 20);
     }
 
     /*
-     * ! \brief Menghasilkan produk susu Sapi dari kelas Sapi \return SusuSapi
+     * Menghasilkan produk susu Sapi dari kelas Sapi 
+     * @return SusuSapi
+     * 
      */
     @Override
     public Product getProduct() {
@@ -26,7 +30,8 @@ public class Sapi extends FarmAnimal {
     }
 
     /*
-     * ! \brief Menghasilkan DagingSapi dari kelas Sapi \return DagingSapi
+     * Menghasilkan DagingSapi dari kelas Sapi 
+     * @return DagingSapi
      */
     @Override
     public Product getAnimalMeat() {
@@ -34,7 +39,7 @@ public class Sapi extends FarmAnimal {
     }
 
     /*
-     * ! \brief Menghasilkan suara Sapi
+     * Menghasilkan suara Sapi
      */
     @Override
     public void makeSound() {
@@ -42,7 +47,8 @@ public class Sapi extends FarmAnimal {
     }
 
     /*
-     * ! \brief Menghasilkan icon Sapi 'S' \return char
+     * Menghasilkan icon Sapi 'S' 
+     * @return char
      * 
      */
     @Override

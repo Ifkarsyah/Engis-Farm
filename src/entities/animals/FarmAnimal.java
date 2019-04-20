@@ -62,7 +62,7 @@ public abstract class FarmAnimal extends Renderable {
     }
 
     /**
-     * ! \brief Fungsi yang mengembalikan produk dan dipanggil dari kelas yang
+     * Fungsi yang mengembalikan produk dan dipanggil dari kelas yang
      * menurunkan FarmAnimal, jika tidak memiliki produk akan melepar Exception dan
      * pengambilan produk gagal
      * 
@@ -74,7 +74,7 @@ public abstract class FarmAnimal extends Renderable {
     }
 
     /**
-     * ! \brief Fungsi yang mengembalikan daging dari hewan
+     * Fungsi yang mengembalikan daging dari hewan
      * 
      * @return Product Daging dari kelas hewan yang menurunkan FarmAnimal
      * @throws Exception "NoMeatException"
@@ -84,7 +84,7 @@ public abstract class FarmAnimal extends Renderable {
     }
 
     /**
-     * ! \brief Fungsi abstrak yang mengeluarkan suara hewan sesuai jenis hewannya
+     * Fungsi abstrak yang mengeluarkan suara hewan sesuai jenis hewannya
      */
     public abstract void makeSound();
 }

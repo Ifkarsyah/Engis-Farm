@@ -1,7 +1,7 @@
 package entities.product;
 
 /**
- * ! \class Product, \brief kelas abstrak yang mendefinisikan produk yang
+ * Kelas abstrak yang mendefinisikan produk yang
  * dihasilkan oleh kelas turunan FarmAnimal
  */
 public abstract class Product {

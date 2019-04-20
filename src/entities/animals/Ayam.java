@@ -4,8 +4,8 @@ import entities.product.DagingAyam;
 import entities.product.Product;
 import entities.product.TelurAyam;
 
-/*!
- * \class Ayam \brief binatang turunan dari FarmAnimal
+/*
+ * Ayam binatang turunan dari FarmAnimal
  * 
  */
 public class Ayam extends FarmAnimal {
@@ -44,7 +44,8 @@ public class Ayam extends FarmAnimal {
     }
 
     /*
-     * Menghasilkan icon Ayam 'A' \return char
+     * Menghasilkan icon Ayam 'A' \
+     * @return char
      * 
      */
     @Override

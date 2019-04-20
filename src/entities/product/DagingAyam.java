@@ -1,7 +1,7 @@
 package entities.product;
 
 /**
- * ! \class DagingAyam \brief Kelas turunan dari Product
+ * class DagingAyam Kelas turunan dari Product
  */
 public class DagingAyam extends Product {
     /**

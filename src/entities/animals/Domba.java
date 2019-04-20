@@ -4,12 +4,12 @@ import entities.product.DagingDomba;
 import entities.product.Product;
 
 /*!
- * \class Domba \brief binatang turunan dari FarmAnimal
+ * Domba binatang turunan dari FarmAnimal
  * 
  */
 public class Domba extends FarmAnimal {
 
-    /*
+    /**
      * Ctor
      * @param name String berisi nama dari binatang Domba tersebut
      */
@@ -17,7 +17,7 @@ public class Domba extends FarmAnimal {
         super(name, 15);
     }
 
-    /*
+    /**
      * Menghasilkan DagingDomba dari kelas Domba 
      * @return DagingDomba
      */
@@ -34,7 +34,7 @@ public class Domba extends FarmAnimal {
         System.out.println(name + ": Mbeeek!");
     }
 
-    /*
+    /**
      * Menghasilkan icon Domba 'D' 
      * @return char
      * 
