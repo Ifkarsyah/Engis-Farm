@@ -5,6 +5,8 @@ import java.awt.*;
 import java.io.IOException;
 
 /**
+ *
+ *
  * Kelas Assets yang merepresentasikan pengambilan gambar dari file png
  */
 
@@ -32,6 +34,11 @@ public class Assets {
     public static Image Well;
     public static Image Mixer;
 
+    /**
+     *
+     * Menginisialisasi semua gambar yang dibutuhkan
+     *
+     */
     public void init(){
         try{
             Ayam = ImageIO.read(getClass().getResource("img/Ayam.png"));

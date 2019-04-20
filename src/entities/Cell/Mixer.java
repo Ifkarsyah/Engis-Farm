@@ -18,13 +18,11 @@ public class Mixer extends Cell {
         super(point);
     }
 
-
     /**
      * Metode untuk melakukan mix
      * @param playerInventory inventori dari player
      * @param sideProduct Produk yang ingin dibuat
      */
-
     public void mix(LinkedList<Product> playerInventory, SideProduct sideProduct) {
         for (Product p : sideProduct.ingredients) {
             if (!playerInventory.removeIf(inv -> inv.type.equals(p.type)))
@@ -37,12 +35,16 @@ public class Mixer extends Cell {
      * Override fungsi render()
      * @return char
      */
-
     @Override
     public char render() {
         return 'M';
     }
 
+    /**
+     * Menghasilkan filename gambar mixer
+     * @return ImageIcon
+     *
+     */
     @Override
     public ImageIcon renderGUI(){
         return new ImageIcon("img/Mixer.png");

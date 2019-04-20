@@ -12,7 +12,6 @@ public class Well extends Cell {
      * Konstruktor Well
      * @param point
      */
-
     public Well(Point point) {
         super(point);
     }
@@ -22,12 +21,16 @@ public class Well extends Cell {
      * Override fungsi render()
      * @return char
      */
-
     @Override
     public char render() {
         return 'W';
     }
 
+    /**
+     *
+     * Menghasilkan filename gambar well
+     * @return ImageIcon
+     */
     @Override
     public ImageIcon renderGUI(){
         return new ImageIcon("img/Well.png");

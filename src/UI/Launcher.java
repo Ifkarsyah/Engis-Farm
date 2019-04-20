@@ -9,6 +9,11 @@ import java.awt.*;
 class Launcher extends JFrame {
     private static final Game game = new Game();
 
+    /**
+     *
+     * Main program  untuk Launcher Game
+     *
+     */
     public static void main(String[] args) {
         try {
             Launcher frame = new Launcher();
@@ -18,6 +23,11 @@ class Launcher extends JFrame {
         }
     }
 
+    /**
+     *
+     * Konstruktor Launcher
+     * Menginisialisasi Game
+     */
     public Launcher(){
         javax.swing.SwingUtilities.invokeLater(() -> {
             JFrame frame = new JFrame("Engi's Farm");

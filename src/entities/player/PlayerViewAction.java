@@ -16,6 +16,11 @@ public class PlayerViewAction extends JPanel {
     private final MapView mapView;
     private final MapModel mapModel;
 
+    /**
+     * Konstuktor PlayerViewAction
+     * @param mapModel
+     * @param mapView
+     */
     public PlayerViewAction(MapModel mapModel, MapView mapView) {
         super();
         this.mapModel = mapModel;
