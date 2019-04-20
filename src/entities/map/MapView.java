@@ -63,5 +63,18 @@ public class MapView extends JPanel {
             }
         }
         System.out.println(mapModel.playerModel);
+        if (mapModel.mapAnimals.isEmpty()){
+            JDialog jDialog = new JDialog();
+            jDialog.setTitle("Game Over");
+            JButton gameOver = new JButton();
+            gameOver.setIcon(new ImageIcon("img/GameOver.png"));
+            jDialog.add(gameOver);
+            jDialog.setSize(300, 300);
+            jDialog.setLocationRelativeTo(null);
+            jDialog.setVisible(true);
+            gameOver.addActionListener(actionEvent -> {
+                System.exit(0);
+            });
+        }
     }
 }

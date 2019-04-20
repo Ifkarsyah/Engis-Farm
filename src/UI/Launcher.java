@@ -20,10 +20,6 @@ class Launcher {
             frame.add(game.playerController.playerViewInfo, BorderLayout.EAST);
             frame.add(game.playerController.playerViewAction, BorderLayout.SOUTH);
 
-            if (game.mapController.mapModel.mapAnimals.isEmpty()){
-                System.exit(0);
-            }
-
             frame.pack();
             frame.setVisible(true);
         });
