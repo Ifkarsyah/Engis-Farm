@@ -25,7 +25,8 @@ public class Coop extends Land {
     }
 
     @Override
-    public ImageIcon renderGUI(){
-        return new ImageIcon("img/Coop.png");
+    public ImageIcon renderGUI() {
+        return (isGrassGrown ? new ImageIcon("img/Coop-grass.png") :
+                new ImageIcon("img/Coop.png"));
     }
 }

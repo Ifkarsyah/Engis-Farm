@@ -25,7 +25,8 @@ public class Barn extends Land {
     }
 
     @Override
-    public ImageIcon renderGUI(){
-        return new ImageIcon("img/Barn.png");
+    public ImageIcon renderGUI() {
+        return (isGrassGrown ? new ImageIcon("img/Barn-grass.png") :
+                                new ImageIcon("img/Barn.png"));
     }
 }

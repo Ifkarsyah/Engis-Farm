@@ -3,33 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8c9d7a0f-7219-4b9d-adef-6183dbd9808e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/barn.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/Barn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/coop.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/Coop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/grassland.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/Grassland.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/player.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/Player.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/Ayam.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/Ayam.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/META-INF/Engi's Farm.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/barn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/coop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Barn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Barn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Coop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Coop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Grassland.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Grassland.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Mixer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Mixer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Truck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Truck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Well.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Well.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Renderable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Renderable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Ayam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Ayam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Bebek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Bebek.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Domba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Domba.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/FarmAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/FarmAnimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Kelinci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Kelinci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Sapi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Sapi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Unta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Unta.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/grassland.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/animals/Ayam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/animals/Ayam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Cell/Barn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cell/Barn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Cell/Coop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cell/Coop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Cell/Grassland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cell/Grassland.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entities/map/MapView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/map/MapView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,17 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/entities/animals/Ayam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/grass.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/bucket.png">
+        <entry file="file://$PROJECT_DIR$/img/Grassland.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/Grassland-grass.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/Kelinci.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -64,31 +47,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/Player.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/entities/Cell/Barn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/Cell/Cell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/Cell/Coop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/entities/Cell/Grassland.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img/Barn.png">
           <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/map/MapView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -123,12 +128,12 @@
         <option value="$PROJECT_DIR$/src/entities/Cell/Truck.java" />
         <option value="$PROJECT_DIR$/src/entities/Cell/Mixer.java" />
         <option value="$PROJECT_DIR$/src/entities/Cell/Well.java" />
-        <option value="$PROJECT_DIR$/src/entities/Cell/Grassland.java" />
-        <option value="$PROJECT_DIR$/src/entities/Cell/Coop.java" />
-        <option value="$PROJECT_DIR$/src/entities/Cell/Barn.java" />
         <option value="$PROJECT_DIR$/src/entities/player/PlayerModel.java" />
-        <option value="$PROJECT_DIR$/src/entities/map/MapView.java" />
         <option value="$PROJECT_DIR$/src/entities/animals/Ayam.java" />
+        <option value="$PROJECT_DIR$/src/entities/map/MapView.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/Barn.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/Coop.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/Grassland.java" />
       </list>
     </option>
   </component>
@@ -173,13 +178,6 @@
               <item name="EngisFarm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
-              <item name="animals" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EngisFarm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EngisFarm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
               <item name="Cell" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -188,13 +186,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
               <item name="map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EngisFarm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EngisFarm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-              <item name="player" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EngisFarm" type="b2602c69:ProjectViewProjectNode" />
@@ -251,7 +242,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555766181226</updated>
-      <workItem from="1555779424761" duration="3857000" />
+      <workItem from="1555779424761" duration="4885000" />
     </task>
     <task id="LOCAL-00001" summary="add icon">
       <created>1555782063472</created>
@@ -260,14 +251,22 @@
       <option name="project" value="LOCAL" />
       <updated>1555782063473</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="rename icon">
+      <created>1555783300211</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555783300211</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5033000" />
+    <option name="totallyTimeSpent" value="6061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
@@ -305,15 +304,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="add icon" />
+    <MESSAGE value="rename icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename icon" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/Coop.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Grassland.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -321,27 +315,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/meta/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meta/Assets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -438,36 +415,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Barn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/player/PlayerModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="169" column="33" lean-forward="true" selection-start-line="169" selection-start-column="33" selection-end-line="169" selection-end-column="33" />
           <folding>
             <element signature="e#4258#4259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Coop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -488,25 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Grassland.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -542,36 +476,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/map/MapView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Barn.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/bucket.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Ayam.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/Player.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/animals/Ayam.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meta/Assets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meta/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/map/MapView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-682">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Barn-grass.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Barn-grass.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Bebek.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bucket.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Burger.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Coop-grass.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Coop-grass.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Coop.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/DagingAyam.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/DagingBebek.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/DagingDomba.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/DagingKelinci.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/DagingSapi.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/DagingUnta.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Domba.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/fence.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/fence-left.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/fence-right.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/grass.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Grassland.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Grassland-grass.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Kelinci.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Barn.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Ayam.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Barn.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
-          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Coop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Grassland.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

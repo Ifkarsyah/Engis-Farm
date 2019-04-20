@@ -19,8 +19,10 @@ public class Grassland extends Land {
         return (isGrassGrown ? '#' : '-');
     }
 
+
     @Override
-    public ImageIcon renderGUI(){
-        return new ImageIcon("img/Grassland.png");
+    public ImageIcon renderGUI() {
+        return (isGrassGrown ? new ImageIcon("img/Grassland-grass.png") :
+                new ImageIcon("img/Grassland.png"));
     }
 }

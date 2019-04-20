@@ -18,7 +18,6 @@ public class MapView extends JPanel {
      * 
      * @param mapModel
      */
-
     public MapView(MapModel mapModel) {
         super(new GridLayout(sizeRowMap, sizeColMap));
 
@@ -26,6 +25,7 @@ public class MapView extends JPanel {
 
         initMapEntities();
         initColorMapLands();
+        mapModel.updateTick();
     }
 
     private void initMapEntities() {
@@ -76,9 +76,7 @@ public class MapView extends JPanel {
                 else if (currentPoint.equals(mapModel.mixer.getPoint())){
 //                    map[i][j].setText(String.valueOf(mapModel.mixer.render()));
                     map[i][j].setIcon(mapModel.mixer.renderGUI());
-
                 }
-
                 else if (currentPoint.equals(mapModel.well.getPoint())){
 //                    map[i][j].setText(String.valueOf(mapModel.well.render()));
                     map[i][j].setIcon(mapModel.well.renderGUI());
@@ -87,7 +85,7 @@ public class MapView extends JPanel {
 //                     map[i][j].setText(String.valueOf(mapModel.mapAnimals.get(currentPoint).render()));
                     map[i][j].setIcon(mapModel.mapAnimals.get(currentPoint).renderGUI());
                 }
-                else{
+                else {
 //                     map[i][j].setText(String.valueOf(mapModel.mapLands.get(currentPoint).render()));
                     map[i][j].setIcon(mapModel.mapLands.get(currentPoint).renderGUI());
                 }
