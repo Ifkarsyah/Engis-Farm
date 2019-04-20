@@ -1,11 +1,11 @@
 package entities.product;
 
 /**
- * ! \class Burger merupakan turunan dari kelas SideProduct
+ * class Burger merupakan turunan dari kelas SideProduct
  */
 public class Burger extends SideProduct {
     /**
-     * ! \brief ctor, inisialisasi Harga dan nama Produk pada kelas SideProduct,
+     * Ctor, inisialisasi Harga dan nama Produk pada kelas SideProduct,
      * serta bahan bahan dari kelas Product yang dibutuhkan untuk membuat Burger
      */
     public Burger() {

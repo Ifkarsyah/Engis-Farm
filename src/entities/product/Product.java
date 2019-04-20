@@ -1,7 +1,7 @@
 package entities.product;
 
 /**
- * ! \class Product, \brief kelas abstrak yang mendefinisikan produk yang
+ * Kelas abstrak yang mendefinisikan produk yang
  * dihasilkan oleh kelas turunan FarmAnimal
  */
 public abstract class Product {
@@ -9,8 +9,7 @@ public abstract class Product {
     public final String type; // !< Atribut type String , nama tipe produk
 
     /**
-     * ! \brief Ctor yang dipanggil melalui kelas turunannya
-     * 
+     * Ctor yang dipanggil melalui kelas turunannya
      * @param price harga produk
      * @param type  tipe produk
      */
@@ -20,7 +19,7 @@ public abstract class Product {
     }
 
     /**
-     * ! \brief mengembalikan tipe dari produk, dipanggil melalui kelas turunan
+     * @return string tipe dari produk, dipanggil melalui kelas turunan
      */
     @Override
     public String toString() {

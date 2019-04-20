@@ -4,11 +4,11 @@ import entities.product.DagingKelinci;
 import entities.product.Product;
 
 /**
- * \class Kelinci \brief Kelas turunan dari FarmAnimal
+ * Kelinci turunan dari FarmAnimal
  */
 public class Kelinci extends FarmAnimal {
     /**
-     * \brief Ctor
+     * Ctor
      * 
      * @param name
      */
@@ -17,7 +17,8 @@ public class Kelinci extends FarmAnimal {
     }
 
     /**
-     * \brief Menghasilkan objek kelas DagingKelinci \return DagingKelinci
+     * Menghasilkan objek kelas DagingKelinci 
+     * @return DagingKelinci
      */
     @Override
     public Product getAnimalMeat() {
@@ -25,7 +26,7 @@ public class Kelinci extends FarmAnimal {
     }
 
     /**
-     * \brief Menghasilkan suara Kelinci
+     * Menghasilkan suara Kelinci
      */
     @Override
     public void makeSound() {
@@ -33,7 +34,8 @@ public class Kelinci extends FarmAnimal {
     }
 
     /**
-     * Render icon Kelinci pada GUI /return char huruf K
+     * Render icon Kelinci pada GUI 
+     * @return char huruf K
      */
     @Override
     public char render() {

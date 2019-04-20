@@ -5,7 +5,7 @@ import entities.Renderable;
 import entities.product.Product;
 
 /**
- * ! \class FarmAnimal \brief merupakan kelas abstrak turunan dari kelas
+ * class FarmAnimal merupakan kelas abstrak turunan dari kelas
  * Renderable
  */
 public abstract class FarmAnimal extends Renderable {
@@ -19,10 +19,10 @@ public abstract class FarmAnimal extends Renderable {
     private int hungryPoint; // <! Atribut yang menandakan status tingkat kelaparan hewan
 
     /**
-     * ! \brief Ctor, inisialisasi dengan parameter nama hewan dan waktu lapar hewan
+     * Ctor, inisialisasi dengan parameter nama hewan dan waktu lapar hewan
      * 
-     * @param name
-     * @param hungerTime
+     * @param name Nama hewan
+     * @param hungerTime waktu lapar
      * 
      */
     FarmAnimal(String name, int hungerTime) {
@@ -31,7 +31,7 @@ public abstract class FarmAnimal extends Renderable {
     }
 
     /**
-     * ! Fungsi yang membuat hewan makin lapar, dipanggil dari fungsi lain setiap
+     * Fungsi yang membuat hewan makin lapar, dipanggil dari fungsi lain setiap
      * waktu tertentu
      */
     public void becomeHungrier() {
@@ -39,7 +39,7 @@ public abstract class FarmAnimal extends Renderable {
     }
 
     /**
-     * ! \brief Fungsi yang mengecek apakah hewan sudah mati atau belum
+     * Fungsi yang mengecek apakah hewan sudah mati atau belum
      * 
      * @return boolean, true jika hungryPoint nya sudah 0
      */
@@ -48,7 +48,7 @@ public abstract class FarmAnimal extends Renderable {
     }
 
     /**
-     * ! \brief Fungsi yang meningkatkan hungryPoint hewan, dan membuat land tempat
+     * Fungsi yang meningkatkan hungryPoint hewan, dan membuat land tempat
      * hewan berada hilang rumputnya
      * 
      * @param land
@@ -62,11 +62,11 @@ public abstract class FarmAnimal extends Renderable {
     }
 
     /**
-     * ! \brief Fungsi yang mengembalikan produk dan dipanggil dari kelas yang
+     * Fungsi yang mengembalikan produk dan dipanggil dari kelas yang
      * menurunkan FarmAnimal, jika tidak memiliki produk akan melepar Exception dan
      * pengambilan produk gagal
      * 
-     * @return produk dari <Kelas Hewan yang menurunkan FarmAnimal>
+     * @return Product Produk (non-daging) dari Kelas Hewan yang menurunkan FarmAnimal
      * @throws Exception jika tidak memiliki produk "NoProductException"
      */
     public Product getProduct() throws Exception {
@@ -74,9 +74,9 @@ public abstract class FarmAnimal extends Renderable {
     }
 
     /**
-     * ! \brief Fungsi yang mengembalikan daging dari hewan
+     * Fungsi yang mengembalikan daging dari hewan
      * 
-     * @return daging<Kelas Hewan yang menurunkan FarmAnimal>
+     * @return Product Daging dari kelas hewan yang menurunkan FarmAnimal
      * @throws Exception "NoMeatException"
      */
     public Product getAnimalMeat() throws Exception {
@@ -84,7 +84,7 @@ public abstract class FarmAnimal extends Renderable {
     }
 
     /**
-     * ! \brief Fungsi abstrak yang mengeluarkan suara hewan sesuai jenis hewannya
+     * Fungsi abstrak yang mengeluarkan suara hewan sesuai jenis hewannya
      */
     public abstract void makeSound();
 }

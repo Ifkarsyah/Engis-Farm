@@ -10,6 +10,13 @@ public class MapController {
     public final MapModel mapModel;
     public final MapView mapView;
 
+    /**
+     * Konstruktor dari kelas MapController
+     * 
+     * @param mapModel
+     * @param mapView
+     */
+
     public MapController(MapModel mapModel, MapView mapView) {
         this.mapModel = mapModel;
         this.mapView = mapView;
