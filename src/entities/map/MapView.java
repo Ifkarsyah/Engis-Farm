@@ -24,7 +24,6 @@ public class MapView extends JPanel {
         this.mapModel = mapModel;
 
         initMapEntities();
-        mapModel.updateTick();
     }
 
     private void initMapEntities() {
@@ -77,6 +76,7 @@ public class MapView extends JPanel {
             }
         }
         System.out.println(mapModel.playerModel);
+        System.out.println("Animal left:" + mapModel.mapAnimals.size());
         if (mapModel.mapAnimals.isEmpty()){
             JDialog jDialog = new JDialog();
             jDialog.setTitle("Game Over");

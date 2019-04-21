@@ -17,8 +17,10 @@ public class StartMenu extends JFrame {
     public StartMenu(){
         setTitle("Start Menu");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        setBounds(100, 100, 450, 300);
-        JButton btn = new JButton("New");
+        setBounds(0, 0, 1000, 1000);
+        JLabel background = new JLabel(new ImageIcon("img/startmenu.png"));
+        setContentPane(background);
+        JButton btn = new JButton();
         btn.addActionListener((new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -29,6 +31,8 @@ public class StartMenu extends JFrame {
                 setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             }
         }));
-        add(btn);
+        btn.setIcon(new ImageIcon("img/button.png"));
+        btn.setBounds(430,400,219,145);
+        background.add(btn);
     }
 }
