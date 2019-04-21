@@ -58,6 +58,11 @@ public class Sapi extends FarmAnimal {
         return 'S';
     }
 
+    /**
+     * Menghasilkan filename gambar sapi
+     * @return ImageIcon
+     *
+     */
     @Override
     public ImageIcon renderGUI() {
         if (hungryPoint > 5)

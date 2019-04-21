@@ -8,7 +8,11 @@ public class PlayerViewInfo extends JPanel {
     private final JButton waterView;
     private final JList inventoryView;
 
-
+    /**
+     * Konstruktor PlyerViewInfo
+     * Menginisialisasi informasi player
+     * @param playerModel
+     */
     public PlayerViewInfo(PlayerModel playerModel) {
         super();
         this.moneyView = new JButton("Money: " + playerModel.getMoney());
@@ -23,6 +27,11 @@ public class PlayerViewInfo extends JPanel {
         add(waterView);
     }
 
+    /**
+     *
+     * Mengupdateinformasi dari player setiap tick-nya
+     * @param playerModel
+     */
     public void updatePlayerInfoView(PlayerModel playerModel) {
         moneyView.setText("Money: " + playerModel.getMoney());
         waterView.setText("Water: " + playerModel.getWater());

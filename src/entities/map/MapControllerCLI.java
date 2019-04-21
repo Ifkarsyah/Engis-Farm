@@ -14,6 +14,11 @@ public class MapControllerCLI {
     private static final Point mixerPoint = mapModel.mixer.getPoint();
     private static final Point wellPoint = mapModel.well.getPoint();
 
+    /**
+     *
+     * main Program untuk CLI
+     *
+     */
     public static void main(String[] args) {
         while (!mapModel.mapAnimals.isEmpty()) {
             System.out.println(mapModel);
@@ -29,18 +34,6 @@ public class MapControllerCLI {
                     if (targetAnimal != null)
                         mapModel.playerModel.talk(targetAnimal);
                     break;
-                //                case "interact":
-                //                    if (targetAnimal != null) {
-                //                        try {
-                //                            mapModel.playerModel.interact(targetAnimal);
-                //                        } catch (Exception e) {
-                //                            System.out.println(e.getMessage());
-                //                        }
-                //                    } else if ((int) playerPoint.distanceSq(truckPoint) < 2)
-                //                        mapModel.playerModel.interact(mapModel.truck);
-                //                    else if ((int) playerPoint.distanceSq(wellPoint) < 2)
-                //                        mapModel.playerModel.interact(mapModel.well);
-                //                    break;
                 case "kill":
                     if (targetAnimal != null) {
                         if (targetAnimal.isProductReady) {

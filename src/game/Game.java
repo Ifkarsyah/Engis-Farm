@@ -13,6 +13,11 @@ public class Game {
     public final MapController mapController;
     public final PlayerController playerController;
 
+    /**
+     *
+     * Konstruktor Game
+     * Menginisialisasi Game, MapController, dan PlayerController
+     */
     public Game() {
         MapModel mapModel = new MapModel();
         mapController = new MapController(mapModel, new MapView(mapModel));

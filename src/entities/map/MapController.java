@@ -16,7 +16,6 @@ public class MapController {
      * @param mapModel
      * @param mapView
      */
-
     public MapController(MapModel mapModel, MapView mapView) {
         this.mapModel = mapModel;
         this.mapView = mapView;
@@ -24,6 +23,11 @@ public class MapController {
         addKeyListenerPlayerMove();
     }
 
+    /**
+     *
+     * methode addKeyListenerPlayerMove untuk melakukan pergerakan player
+     *
+     */
     private void addKeyListenerPlayerMove() {
         for (int i = 0; i < sizeRowMap; i++)
             for (int j = 0; j < sizeColMap; j++) {

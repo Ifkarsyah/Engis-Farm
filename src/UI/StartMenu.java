@@ -5,6 +5,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class StartMenu extends JFrame {
+    /**
+     *
+     * main program untuk start menu
+     * 
+     */
     public static void main(String[] args) {
         try {
             StartMenu frame = new StartMenu();
@@ -14,6 +19,11 @@ public class StartMenu extends JFrame {
         }
     }
 
+    /**
+     *
+     * Konstruktor Start Menu
+     * Menginisialisasi Start Menu dari Game
+     */
     public StartMenu(){
         setTitle("Start Menu");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);

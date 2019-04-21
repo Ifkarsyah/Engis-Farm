@@ -60,6 +60,11 @@ public class Bebek extends FarmAnimal {
         return 'B';
     }
 
+    /**
+     * Menghasilkan filename gambar bebek
+     * @return ImageIcon
+     *
+     */
     @Override
     public ImageIcon renderGUI(){
         if (hungryPoint > 5)
