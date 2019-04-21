@@ -46,6 +46,11 @@ public class Domba extends FarmAnimal {
         return 'D';
     }
 
+    /**
+     * Menghasilkan filename gambar Domba
+     * @return ImageIcon
+     *
+     */
     @Override
     public ImageIcon renderGUI(){
         if (hungryPoint > 5)

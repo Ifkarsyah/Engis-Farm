@@ -14,8 +14,8 @@ public class MapView extends JPanel {
     private final MapModel mapModel;
 
     /**
+     *
      * Konstruktor kelas MapView
-     * 
      * @param mapModel
      */
     public MapView(MapModel mapModel) {
@@ -26,6 +26,12 @@ public class MapView extends JPanel {
         initMapEntities();
     }
 
+
+    /**
+     *
+     * Inisialisasi map
+     *
+     */
     private void initMapEntities() {
         for (int i = 0; i < sizeRowMap; i++) {
             for (int j = 0; j < sizeColMap; j++) {
@@ -37,6 +43,13 @@ public class MapView extends JPanel {
         }
     }
 
+
+    /**
+     * Memberikan icon yang merepresentasikan isi dai map tersebut
+     * @param i
+     * @param j
+     * @param currentPoint
+     */
     private void setIconCurrentPoint(int i, int j, Point currentPoint) {
         if (currentPoint.equals(mapModel.playerModel.getPoint())){
             map[i][j].setIcon(mapModel.playerModel.renderGUI());
@@ -67,6 +80,11 @@ public class MapView extends JPanel {
         }
     }
 
+    /**
+     *
+     * Melakukan perubahan pada map untuk setiap satu tick
+     *
+     */
     public void updateMap() {
         mapModel.updateTick();
         for (int i = 0; i < sizeRowMap; i++) {

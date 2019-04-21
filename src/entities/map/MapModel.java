@@ -26,7 +26,6 @@ public class MapModel {
      * Konstruktor dari Kelas MapModel
      * 
      */
-
     public MapModel() {
         initMapLands();
         initMapAnimals();
@@ -37,10 +36,10 @@ public class MapModel {
     }
 
     /**
+     *
      * Inisialisasi cells pada map
      * 
      */
-
     private void initMapLands() {
         for (int i = 0; i < sizeRowMap; i++)
             for (int j = 0; j < sizeColMap; j++)
@@ -56,8 +55,8 @@ public class MapModel {
     /**
      * 
      * Inisialisasi hewan-hewan pada map
+     *
      */
-
     private void initMapAnimals() {
         mapAnimals.put(new Point(0, 0), new Ayam("gracia"));
         mapAnimals.put(new Point(0, 1), new Ayam("pablo"));
@@ -71,6 +70,11 @@ public class MapModel {
         mapAnimals.put(new Point(7, 5), new Unta("dominique"));
     }
 
+    /**
+     *
+     * Methode untuk mencetak map
+     * @return representaasi dari map
+     */
     @Override
     public String toString() {
         StringBuilder s = new StringBuilder();
@@ -95,6 +99,11 @@ public class MapModel {
         return s.toString();
     }
 
+    /**
+     *
+     * Methode untuk mencetak map
+     * @return Hewan yang di dekat player atau null
+     */
     public FarmAnimal animalIsAroundPlayer() {
         for (int i = 0; i < 4; i++) {
             Point around = new Point(playerModel.getPoint());
@@ -105,14 +114,23 @@ public class MapModel {
         return null;
     }
 
+    /**
+     * Mengelola pergerakan pemain
+     * @param dx
+     * @param dy
+     */
     public void playerMove(int dx, int dy) {
         Point targetPoint = new Point(playerModel.getPoint().x + dx, playerModel.getPoint().y + dy);
         if (isEmptyCell(targetPoint))
             playerModel.getPoint().translate(dx, dy);
     }
 
+    /**
+     * Mengecek apakah di cell dengan koordinat tertentu kosong atau tidak
+     * @param point
+     * @return boolean
+     */
     private boolean isEmptyCell(Point point) {
-
         return (inRange(point)
                 && !mapAnimals.containsKey(point)
                 && (truck.getPoint() != point)
@@ -121,10 +139,20 @@ public class MapModel {
                 && (playerModel.getPoint() != point));
     }
 
+    /**
+     * Mengecek apakah suatu koordinat masih ada di dalam batas map atau tidak
+     * @param point
+     * @return boolean
+     */
     private boolean inRange(Point point) {
         return (point.x >= 0 && point.x < sizeRowMap) && (point.y >= 0 && point.y < sizeColMap);
     }
 
+    /**
+     *
+     * Mengupdate semua barang yang ada di map setiap tick-nya
+     *
+     */
     void updateTick() {
         randomAnimalMove();
         truck.reduceCooldownTime();
@@ -135,6 +163,11 @@ public class MapModel {
         mapAnimals.entrySet().removeIf(e -> (e.getValue().isDeath()));
     }
 
+    /**
+     *
+     * Mengupdate pergerakan semua hewan yang tersisa
+     *
+     */
     void randomAnimalMove() {
         int awalnya = mapAnimals.size();
         HashMap<Point, FarmAnimal> tempAnimals = new HashMap<>();

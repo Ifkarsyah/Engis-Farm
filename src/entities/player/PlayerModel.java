@@ -24,8 +24,8 @@ public class PlayerModel extends Renderable {
     private int money = 0;
 
     /**
-     * Instantiate PlayerModel with initial position and empty inventory
      *
+     * Konstruktor PlayerModel. Menginisialisasi point dari player
      * @param point initial position
      */
     public PlayerModel(Point point) {
@@ -34,35 +34,45 @@ public class PlayerModel extends Renderable {
     }
 
     /**
-     * Get player's point
      *
-     * @return player's current point state
+     * Mendapatkan point dari palyer
+     * @return point player sekarang
      */
     public Point getPoint() {
         return point;
     }
 
+    /**
+     *
+     * Mendapatkan jumlah air dari player
+     * @return int jumlah air
+     */
     public int getWater() {
         return water;
     }
 
+    /**
+     *
+     * Mendapatkan banyaknya uang dari player
+     * @return int banyaknya uang
+     */
     public int getMoney() {
         return money;
     }
 
     /**
-     * Get player's inventory
      *
-     * @return player's current inventory state
+     * Mendapatkan inventory dari player
+     * @return LinkedList<Product> inventori player
      */
     public LinkedList<Product> getInventory() {
         return inventory;
     }
 
     /**
-     * Get player's representation in map
      *
-     * @return representation of player in map
+     * Mendapatkan representasi dari player di map
+     * @return char 'P'
      */
     @Override
     public char render() {
@@ -70,11 +80,10 @@ public class PlayerModel extends Renderable {
     }
 
     /**
-     * Refill player's water when interacting with well
+     * Menambah jumlah air dari player
      * I.S: Random
-     * F.S: player's water added 100
-     *
-     * @param well the well player's interacting with
+     * F.S: Jumlah air dari player bertambah 50
+     * @param well
      */
     public void interact(Well well) {
         water += well.waterCapacity;
@@ -83,11 +92,10 @@ public class PlayerModel extends Renderable {
     }
 
     /**
-     * Clear inventory by selling all product to truck
+     * Mengosongkan inventory dan menjual semua barang yang ada
      * I.S: Random
-     * F.S: player's inventory empty, truck's inventory is empty
-     *
-     * @param truck the truck player's interacting with
+     * F.S: Inventori kosong
+     * @param truck
      */
     public void interact(Truck truck) {
         while (!inventory.isEmpty())
@@ -96,11 +104,10 @@ public class PlayerModel extends Renderable {
     }
 
     /**
-     * Get product other than meat from animal
-     * I.S: there's farmAnimal around player
-     * F.S: can't get animal's product within sort time
-     *
-     * @param farmAnimal the animal player's interacting with
+     * Mendapatkan product dari suatu animal
+     * I.S: Terdapat animal di sekitar player
+     * F.S: product didapat, product belum siap, atau hean tidak memiliki product
+     * @param farmAnimal
      */
     public void interact(FarmAnimal farmAnimal) {
         try {
@@ -116,11 +123,10 @@ public class PlayerModel extends Renderable {
     }
 
     /**
-     * Get meat from animal
-     * I.S: there's farmAnimal around player
-     * F.S: can't get animal's meat within sort time
-     *
-     * @param farmAnimal the animal player's interacting with
+     * Mendapatkan daging dari suatu animal
+     * I.S: Terdapat animal di sekitar player
+     * F.S: daging ditambahkan di inventori dan hewan mati.
+     * @param farmAnimal
      */
     public void kill(FarmAnimal farmAnimal) {
         try {
@@ -136,11 +142,10 @@ public class PlayerModel extends Renderable {
     }
 
     /**
-     * Grow land in the same point with PlayerModel
+     * Menumbuhkan rumput di point yang sama dengan player
      * I.S: Random
-     * F.S: player's water reduced by 1 and land's grass is grew
-     *
-     * @param land the land PlayerModel standing
+     * F.S: Water berkurang 1 dan tumbuh tumput
+     * @param land
      */
     public void grow(Land land) {
         land.isGrassGrown = true;
@@ -148,24 +153,29 @@ public class PlayerModel extends Renderable {
     }
 
     /**
-     * Trigger animal to sound
      *
-     * @param farmAnimal targeted animal
+     * Player berbicara dengan hewan
+     * @param farmAnimal
      */
     public void talk(FarmAnimal farmAnimal) {
         farmAnimal.makeSound();
     }
 
     /**
-     * Print player's info
      *
-     * @return player's info
+     * Print informasi player
+     * @return informasi player
      */
     @Override
     public String toString() {
         return "" + ("Money: " + money + "\n") + ("Water: " + water + "\n") + ("Inventory: " + Arrays.toString(inventory.toArray()) + "\n");
     }
 
+    /**
+     *
+     * Menghasilkan filename gambar player
+     * @return ImageIcon
+     */
     @Override
     public ImageIcon renderGUI(){
         return new ImageIcon("img/Player.png");

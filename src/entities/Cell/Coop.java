@@ -14,7 +14,6 @@ public class Coop extends Land {
         super(point, "Coop");
     }
 
-
     /**
      * Override fungsi render
      * @return char
@@ -24,6 +23,11 @@ public class Coop extends Land {
         return (isGrassGrown ? '*' : 'o');
     }
 
+    /**
+     * Menghasilkan filename gambar Coop
+     * @return ImageIcon
+     *
+     */
     @Override
     public ImageIcon renderGUI() {
         return (isGrassGrown ? new ImageIcon("img/Coop-grass.png") :

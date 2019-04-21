@@ -55,6 +55,11 @@ public class Ayam extends FarmAnimal {
         return 'A';
     }
 
+    /**
+     * Menghasilkan filename gambar ayam
+     * @return ImageIcon
+     *
+     */
     @Override
     public ImageIcon renderGUI(){
         if (hungryPoint > 5)

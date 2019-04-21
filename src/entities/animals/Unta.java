@@ -54,6 +54,11 @@ public class Unta extends FarmAnimal {
         return 'U';
     }
 
+    /**
+     * Menghasilkan filename gambar unta
+     * @return ImageIcon
+     *
+     */
     @Override
     public ImageIcon renderGUI() {
         if (hungryPoint > 5)

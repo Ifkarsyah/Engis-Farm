@@ -10,13 +10,17 @@ public abstract class Renderable {
     /**
      * Fungsi yang mengembalikan char untuk di render pada map GUI kelas
      * turunan renderable
-     * 
      * @return int 0 callback jika fungsi render pada kelas turunan gagal dipanggil
      */
     public char render() {
         return 0;
     }
 
+    /**
+     *
+     * Menghasilkan null
+     * @return ImageIcon
+     */
     public ImageIcon renderGUI() {
         return null;
     }

@@ -44,6 +44,11 @@ public class Kelinci extends FarmAnimal {
         return 'K';
     }
 
+    /**
+     * Menghasilkan filename gambar kelinci
+     * @return ImageIcon
+     *
+     */
     @Override
     public ImageIcon renderGUI(){
         if (hungryPoint > 5)

@@ -24,6 +24,11 @@ public class Barn extends Land {
         return (isGrassGrown ? '@' : 'x');
     }
 
+    /**
+     * Menghasilkan filename gambar Barn
+     * @return ImageIcon
+     *
+     */
     @Override
     public ImageIcon renderGUI() {
         return (isGrassGrown ? new ImageIcon("img/Barn-grass.png") :
