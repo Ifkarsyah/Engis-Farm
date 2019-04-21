@@ -149,7 +149,7 @@ public class MapModel {
 
             if (isEmptyCell(targetPoint)
                     && !tempAnimals.containsKey(targetPoint)
-                    && mapLands.get(point).type == mapLands.get(targetPoint).type) {
+                    && mapAnimals.get(point).isHabitat(mapLands.get(targetPoint).render())) {
                 tempAnimals.put(targetPoint, farmAnimal);
                 it.remove();
             }

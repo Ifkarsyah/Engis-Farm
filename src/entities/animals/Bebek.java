@@ -67,4 +67,8 @@ public class Bebek extends FarmAnimal {
         else
             return new ImageIcon("img/Bebek-hungry.png");
     }
+
+    public boolean isHabitat(char c){
+        return c == '*' || c == '#' || c == 'o' || c == '-';
+    }
 }

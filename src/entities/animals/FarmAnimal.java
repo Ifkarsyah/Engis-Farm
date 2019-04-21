@@ -101,4 +101,6 @@ public abstract class FarmAnimal extends Renderable {
     public int getHungryPoint() {
         return hungryPoint;
     }
+
+    public abstract boolean isHabitat(char c);
 }

@@ -53,4 +53,8 @@ public class Domba extends FarmAnimal {
         else
             return new ImageIcon("img/Domba-hungry.png");
     }
+
+    public boolean isHabitat(char c){
+        return c == '@' || c == '#' || c == 'x' || c == '-';
+    }
 }

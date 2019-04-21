@@ -51,4 +51,8 @@ public class Kelinci extends FarmAnimal {
         else
             return new ImageIcon("img/Kelinci-hungry.png");
     }
+
+    public boolean isHabitat(char c){
+        return c == '@' || c == '#' || c == 'x' || c == '-';
+    }
 }

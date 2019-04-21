@@ -66,4 +66,8 @@ public class Sapi extends FarmAnimal {
             return new ImageIcon("img/Sapi-hungry.png");
     }
 
+    public boolean isHabitat(char c){
+        return c == '#' || c == '-';
+    }
+
 }

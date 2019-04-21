@@ -61,4 +61,8 @@ public class Unta extends FarmAnimal {
         else
             return new ImageIcon("img/Unta-hungry.png");
     }
+
+    public boolean isHabitat(char c){
+        return c == '#' || c == '-';
+    }
 }
