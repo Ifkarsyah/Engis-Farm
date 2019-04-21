@@ -61,9 +61,9 @@ public class Sapi extends FarmAnimal {
     @Override
     public ImageIcon renderGUI() {
         if (hungryPoint > 5)
-            return new ImageIcon("img/Kelinci.png");
+            return new ImageIcon("img/Sapi.png");
         else
-            return new ImageIcon("img/Kelinci-hungry.png");
+            return new ImageIcon("img/Sapi-hungry.png");
     }
 
 }

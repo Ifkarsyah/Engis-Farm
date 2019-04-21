@@ -113,7 +113,12 @@ public class MapModel {
 
     private boolean isEmptyCell(Point point) {
 
-        return (inRange(point) && !mapAnimals.containsKey(point) && (truck.getPoint() != point) && (mixer.getPoint() != point) && (well.getPoint() != point) && (playerModel.getPoint() != point));
+        return (inRange(point)
+                && !mapAnimals.containsKey(point)
+                && (truck.getPoint() != point)
+                && (mixer.getPoint() != point)
+                && (well.getPoint() != point)
+                && (playerModel.getPoint() != point));
     }
 
     private boolean inRange(Point point) {
@@ -131,6 +136,7 @@ public class MapModel {
     }
 
     void randomAnimalMove() {
+        int awalnya = mapAnimals.size();
         HashMap<Point, FarmAnimal> tempAnimals = new HashMap<>();
         Iterator it = mapAnimals.entrySet().iterator();
         while (it.hasNext()) {
@@ -141,11 +147,14 @@ public class MapModel {
             int r = ThreadLocalRandom.current().nextInt(4);
             Point targetPoint = new Point(point.x + upDown[r], point.y + leftRight[r]);
 
-            if (isEmptyCell(targetPoint) && mapLands.get(point).type == mapLands.get(targetPoint).type) {
+            if (isEmptyCell(targetPoint)
+                    && !tempAnimals.containsKey(targetPoint)
+                    && mapLands.get(point).type == mapLands.get(targetPoint).type) {
                 tempAnimals.put(targetPoint, farmAnimal);
                 it.remove();
             }
         }
         mapAnimals.putAll(tempAnimals);
+        assert(mapAnimals.size() == awalnya);
     }
 }
