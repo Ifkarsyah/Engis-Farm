@@ -21,4 +21,6 @@ public abstract class SideProduct extends Product {
         super(price, type);
         this.ingredients = new LinkedList<>();
     }
+
+
 }

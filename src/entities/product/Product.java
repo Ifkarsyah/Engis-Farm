@@ -21,6 +21,8 @@ public abstract class Product {
     /**
      * @return string tipe dari produk, dipanggil melalui kelas turunan
      */
+    public int getPrice() {return price;}
+
     @Override
     public String toString() {
         return type;
