@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c9d7a0f-7219-4b9d-adef-6183dbd9808e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/entities/animals/AyamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Ayam-hungry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Bebek-hungry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Domba-hungry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/GameOver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Kelinci-hungry.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Kelinci-hungry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Sapi-hungry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Unta-hungry.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engi's Farm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Engi's Farm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Ayam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Ayam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Bebek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Bebek.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Domba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Domba.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/FarmAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/FarmAnimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Kelinci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Kelinci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Sapi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Sapi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Unta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Unta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/map/MapModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/map/MapModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/map/MapView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/map/MapView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,19 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/map/MapModel.java">
+        <entry file="file://$PROJECT_DIR$/src/tests/product_test/productTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/Launcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,15 +37,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/entities/animals/Bebek.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UI/StartMenu.java">
+        <entry file="file://$PROJECT_DIR$/src/entities/product/DagingAyam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/product/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/product/SideProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/animals/AyamTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -67,32 +84,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/entities/animals/Ayam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="-53">
               <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/animals/FarmAnimal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="27" />
-              <folding>
-                <element signature="e#3068#3069#0" expanded="true" />
-                <element signature="e#3102#3103#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/entities/animals/AyamTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/img/Ayam-hungry.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -170,6 +170,11 @@
             <path>
               <item name="EngisFarm" type="b2602c69:ProjectViewProjectNode" />
               <item name="EngisFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EngisFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EngisFarm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -190,7 +195,20 @@
               <item name="EngisFarm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EngisFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EngisFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EngisFarm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EngisFarm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="product_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EngisFarm" type="b2602c69:ProjectViewProjectNode" />
@@ -244,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Ayam">
+  <component name="RunManager" selected="JUnit.entities in Engi's Farm">
     <configuration name="START" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="UI.StartMenu" />
       <module name="Engi's Farm" />
@@ -263,10 +281,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="entities in Engi's Farm" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Engi's Farm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="entities" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CLI" />
       <item itemvalue="Application.START" />
       <item itemvalue="JUnit.Ayam" />
+      <item itemvalue="JUnit.entities in Engi's Farm" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -282,7 +318,7 @@
       <workItem from="1555779424761" duration="8804000" />
       <workItem from="1555789173031" duration="143000" />
       <workItem from="1555789485067" duration="2589000" />
-      <workItem from="1555804996839" duration="1581000" />
+      <workItem from="1555804996839" duration="3003000" />
     </task>
     <task id="LOCAL-00001" summary="add icon">
       <created>1555782063472</created>
@@ -326,21 +362,31 @@
       <option name="project" value="LOCAL" />
       <updated>1555790672087</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add sample junit">
+      <created>1555806610032</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555806610032</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="Ayam - 2019.04.21 at 07h 17m 33s.xml">
       <configuration name="Ayam" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Ayam - 2019.04.21 at 07h 39m 15s.xml">
+      <configuration name="Ayam" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14293000" />
+    <option name="totallyTimeSpent" value="15715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3790902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3790902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -349,12 +395,12 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32736155" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32736155" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32736155" />
@@ -382,39 +428,10 @@
     <MESSAGE value="set dimension to jframe" />
     <MESSAGE value="add gameOver page" />
     <MESSAGE value="differentiate between hungry and not" />
-    <option name="LAST_COMMIT_MESSAGE" value="differentiate between hungry and not" />
+    <MESSAGE value="add sample junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sample junit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Land.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Player.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meta/Assets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meta/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Barn-grass.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/Barn-grass.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -587,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/animals/Bebek.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/player/PlayerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -601,10 +611,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/map/MapModel.java">
+    <entry file="file://$PROJECT_DIR$/src/UI/StartMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+        <state relative-caret-position="150">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -621,6 +631,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/map/MapModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/animals/FarmAnimal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1365">
@@ -632,26 +649,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/animals/Ayam.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/product_test/productTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/StartMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/entities/animals/Bebek.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/product/DagingAyam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/product/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/product/SideProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/animals/AyamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="315">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/animals/Ayam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Ayam-hungry.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
