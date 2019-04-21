@@ -63,9 +63,9 @@ public class Ayam extends FarmAnimal {
     @Override
     public ImageIcon renderGUI(){
         if (hungryPoint > 5)
-            return new ImageIcon("img/Ayam.png");
+            return new ImageIcon(Ayam.class.getResource("/img/Ayam.png"));
         else
-            return new ImageIcon("img/Ayam-hungry.png");
+            return new ImageIcon(Ayam.class.getResource("/img/Ayam-hungry.png"));
     }
 
     public boolean isHabitat(char c){

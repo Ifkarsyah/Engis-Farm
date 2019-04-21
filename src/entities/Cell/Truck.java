@@ -54,6 +54,6 @@ public class Truck extends Cell {
      */
     @Override
     public ImageIcon renderGUI(){
-        return new ImageIcon("img/Truck.png");
+        return new ImageIcon(Truck.class.getResource("/img/Truck.png"));
     }
 }

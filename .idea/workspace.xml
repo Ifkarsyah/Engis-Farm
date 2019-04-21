@@ -1,7 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Engi's Farm:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c9d7a0f-7219-4b9d-adef-6183dbd9808e" name="Default Changelist" comment="" />
+    <list default="true" id="8c9d7a0f-7219-4b9d-adef-6183dbd9808e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/img/Ayam-hungry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Ayam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Barn-grass.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Barn-grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Barn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Bebek-hungry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Bebek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Burger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Coop-grass.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Coop-grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Coop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/DagingAyam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/DagingBebek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/DagingDomba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/DagingKelinci.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/DagingSapi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/DagingUnta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Domba-hungry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Domba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/GameOver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Grassland-grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Grassland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Kelinci-hungry.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Kelinci-hungry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Kelinci.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Mixer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Sapi-hungry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Sapi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Sate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Susu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/SusuSapi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/SusuUnta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Telur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/TelurAyam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/TelurBebek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Truck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Unta-hungry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Unta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Well.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/fence-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/fence-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/fence.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/hay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/startmenu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/UI/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/UI/Launcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/UI/StartMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/UI/StartMenu$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/UI/StartMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/UI/StartMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Barn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Barn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/BarnTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/BarnTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Coop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Coop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/CoopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/CoopTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Grassland.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Grassland.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/GrasslandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/GrasslandTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Mixer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Mixer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/MixerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/MixerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Truck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Truck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/TruckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/TruckTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Well.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Well.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/WellTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/WellTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Renderable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Renderable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Ayam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Ayam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Bebek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Bebek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Domba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Domba.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Kelinci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Kelinci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Sapi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Sapi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Unta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Unta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapControllerCLI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapControllerCLI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerViewAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerViewAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerViewInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerViewInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Burger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Burger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/BurgerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/BurgerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingAyam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingAyam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingAyamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingAyamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingBebek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingBebek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingBebekTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingBebekTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingDomba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingDomba.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingDombaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingDombaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingKelinci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingKelinci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingKelinciTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingKelinciTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingSapi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingSapi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingSapiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingSapiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingUnta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingUnta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingUntaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingUntaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Keju.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Keju.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/KejuTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/KejuTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Sate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Sate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/SateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/SateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/SideProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/SideProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/SusuSapi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/SusuSapi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/SusuUnta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/SusuUnta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/TelurAyam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/TelurAyam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/TelurAyamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/TelurAyamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/TelurBebek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/TelurBebek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/TelurBebekTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/TelurBebekTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/game/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/meta/Assets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/meta/Assets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/StartMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Cell/Barn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cell/Barn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Cell/Coop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cell/Coop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Cell/Grassland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cell/Grassland.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Cell/Mixer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cell/Mixer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Cell/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cell/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Cell/Well.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cell/Well.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/animals/Ayam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/animals/Ayam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/animals/Bebek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/animals/Bebek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/animals/Domba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/animals/Domba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/animals/Kelinci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/animals/Kelinci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/animals/Sapi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/animals/Sapi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/animals/Unta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/animals/Unta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/map/MapView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/map/MapView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/player/PlayerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/player/PlayerModel.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,20 +144,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/entities/map/MapModel.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/Cell/Grassland.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="148" column="62" selection-start-line="148" selection-start-column="62" selection-end-line="148" selection-end-column="62" />
+            <state relative-caret-position="405">
+              <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/map/MapController.java">
+        <entry file="file://$PROJECT_DIR$/src/entities/Cell/Coop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="405">
+              <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/UI/StartMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/Cell/Barn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="34" column="79" lean-forward="true" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/animals/Unta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="66" column="73" selection-start-line="66" selection-start-column="73" selection-end-line="66" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/animals/Sapi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/animals/Kelinci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="56" column="79" selection-start-line="56" selection-start-column="79" selection-end-line="56" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/animals/Domba.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="58" column="68" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/animals/Bebek.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="72" column="81" lean-forward="true" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/animals/Ayam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="67" column="58" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -61,28 +266,29 @@
         <option value="$PROJECT_DIR$/src/meta/Assets.java" />
         <option value="$PROJECT_DIR$/src/tests/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/entities/Renderable.java" />
-        <option value="$PROJECT_DIR$/src/entities/Cell/Truck.java" />
-        <option value="$PROJECT_DIR$/src/entities/Cell/Mixer.java" />
-        <option value="$PROJECT_DIR$/src/entities/Cell/Well.java" />
-        <option value="$PROJECT_DIR$/src/entities/player/PlayerModel.java" />
-        <option value="$PROJECT_DIR$/src/entities/Cell/Barn.java" />
-        <option value="$PROJECT_DIR$/src/entities/Cell/Coop.java" />
-        <option value="$PROJECT_DIR$/src/entities/Cell/Grassland.java" />
         <option value="$PROJECT_DIR$/src/entities/player/PlayerController.java" />
         <option value="$PROJECT_DIR$/src/game/Game.java" />
         <option value="$PROJECT_DIR$/src/UI/MenuState.java" />
         <option value="$PROJECT_DIR$/src/UI/Launcher.java" />
         <option value="$PROJECT_DIR$/src/entities/animals/AyamTest.java" />
-        <option value="$PROJECT_DIR$/src/entities/map/MapView.java" />
-        <option value="$PROJECT_DIR$/src/entities/animals/Ayam.java" />
+        <option value="$PROJECT_DIR$/src/entities/animals/FarmAnimal.java" />
+        <option value="$PROJECT_DIR$/src/entities/map/MapController.java" />
+        <option value="$PROJECT_DIR$/src/entities/map/MapModel.java" />
         <option value="$PROJECT_DIR$/src/entities/animals/Bebek.java" />
         <option value="$PROJECT_DIR$/src/entities/animals/Domba.java" />
         <option value="$PROJECT_DIR$/src/entities/animals/Kelinci.java" />
         <option value="$PROJECT_DIR$/src/entities/animals/Sapi.java" />
         <option value="$PROJECT_DIR$/src/entities/animals/Unta.java" />
-        <option value="$PROJECT_DIR$/src/entities/animals/FarmAnimal.java" />
-        <option value="$PROJECT_DIR$/src/entities/map/MapController.java" />
-        <option value="$PROJECT_DIR$/src/entities/map/MapModel.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/Barn.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/Coop.java" />
+        <option value="$PROJECT_DIR$/src/entities/player/PlayerModel.java" />
+        <option value="$PROJECT_DIR$/src/entities/map/MapView.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/Well.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/Truck.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/Mixer.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/Grassland.java" />
+        <option value="$PROJECT_DIR$/src/entities/animals/Ayam.java" />
+        <option value="$PROJECT_DIR$/src/UI/StartMenu.java" />
       </list>
     </option>
   </component>
@@ -148,14 +354,7 @@
               <item name="EngisFarm" type="b2602c69:ProjectViewProjectNode" />
               <item name="EngisFarm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EngisFarm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EngisFarm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EngisFarm" type="b2602c69:ProjectViewProjectNode" />
@@ -183,6 +382,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="engisfarm" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -193,10 +396,10 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
   </component>
   <component name="RecentsManager">
@@ -205,6 +408,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -373,13 +579,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28409000" />
+    <option name="totallyTimeSpent" value="31362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22505985" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22505985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -388,7 +594,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39576548" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39576548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -430,169 +636,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix bug player overwrite animals" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/Ayam.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Barn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Coop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Grassland.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Well.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/MenuState.java" />
-    <entry file="file://$PROJECT_DIR$/src/game/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/StartMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/product_test/productTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/animals/AyamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/Ayam-hungry.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/map/MapControllerCLI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/map/MapView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Land.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/animals/Bebek.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/animals/Domba.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
-          <folding>
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/animals/Kelinci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/animals/Sapi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="70" selection-end-column="5" />
-          <folding>
-            <element signature="e#1332#1333#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/animals/Unta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          <folding>
-            <element signature="e#1270#1271#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/product/Burger.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -605,20 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Well.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/player/PlayerViewAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -652,7 +683,7 @@
               <point x="0.0" y="0.0" />
             </edge>
           </edges>
-          <settings layout="Tree" zoom="0.7890295358649789" x="186.16042780748666" y="284.1711229946524" />
+          <settings layout="Tree" zoom="0.7890295358649789" x="186.0" y="284.0" />
           <SelectedNodes>
             <node>entities.animals.Ayam</node>
           </SelectedNodes>
@@ -664,13 +695,6 @@
           </Categories>
           <SCOPE>Production</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/animals/Ayam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -724,7 +748,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Tree" zoom="0.6545089448703906" x="951.2061694650529" y="338.56557148435326" />
+          <settings layout="Tree" zoom="0.6545089448703906" x="951.0" y="339.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -748,7 +772,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Tree" zoom="1.0" x="312.5" y="206.0" />
+          <settings layout="Tree" zoom="1.0" x="313.0" y="206.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -772,7 +796,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Tree" zoom="1.0" x="382.5" y="239.0" />
+          <settings layout="Tree" zoom="1.0" x="383.0" y="239.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -838,7 +862,7 @@
               <point x="0.0" y="0.0" />
             </edge>
           </edges>
-          <settings layout="Tree" zoom="0.4818858560794045" x="488.043254376931" y="92.45520082389288" />
+          <settings layout="Tree" zoom="0.4818858560794045" x="488.0" y="92.0" />
           <SelectedNodes>
             <node>entities.Cell.Mixer</node>
           </SelectedNodes>
@@ -982,7 +1006,7 @@
               <point x="0.0" y="5.0" />
             </edge>
           </edges>
-          <settings layout="Tree" zoom="0.43855693348365277" x="527.2493573264782" y="336.24935732647816" />
+          <settings layout="Tree" zoom="0.43855693348365277" x="527.0" y="336.0" />
           <SelectedNodes>
             <node>entities.animals.FarmAnimal</node>
           </SelectedNodes>
@@ -994,17 +1018,6 @@
           </Categories>
           <SCOPE>Production</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/animals/FarmAnimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#3068#3069#0" expanded="true" />
-            <element signature="e#3102#3103#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,17 +1077,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/player/PlayerModel.java">
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/animals/FarmAnimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="135">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#3068#3069#0" expanded="true" />
+            <element signature="e#3102#3103#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/player/PlayerController.java">
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/BarnTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1124">
-          <caret line="133" column="5" lean-forward="true" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1085,31 +1105,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Mixer.java">
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Land.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Truck.java">
+    <entry file="file://$PROJECT_DIR$/src/meta/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meta/Assets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Renderable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/player/PlayerViewInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/map/MapController.java">
+    <entry file="file://$PROJECT_DIR$/src/entities/player/PlayerViewAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="367">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/player/PlayerModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="180" column="61" selection-start-line="180" selection-start-column="61" selection-end-line="180" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/player/PlayerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="133" column="5" lean-forward="true" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/map/MapView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="101" column="71" selection-start-line="101" selection-start-column="71" selection-end-line="101" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/map/MapModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="148" column="62" selection-start-line="148" selection-start-column="62" selection-end-line="148" selection-end-column="62" />
+        <state relative-caret-position="2730">
+          <caret line="192" column="24" selection-start-line="192" selection-start-column="24" selection-end-line="192" selection-end-column="24" />
+          <folding>
+            <element signature="e#4764#4765#0" expanded="true" />
+            <element signature="e#4867#4868#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/map/MapControllerCLI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/map/MapController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/WellTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Well.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Truck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
+          <folding>
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Mixer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Grassland.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Coop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Barn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="34" column="79" lean-forward="true" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/animals/Unta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="66" column="73" selection-start-line="66" selection-start-column="73" selection-end-line="66" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/animals/Sapi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/animals/Kelinci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="56" column="79" selection-start-line="56" selection-start-column="79" selection-end-line="56" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/animals/Domba.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="58" column="68" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/animals/Bebek.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="72" column="81" lean-forward="true" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/animals/Ayam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="67" column="58" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UI/StartMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -1118,11 +1313,20 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="jpa-descriptors" />
+              <type id="artifact" />
+              <type id="library" />
+              <type id="javaee-facet-resources" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>Engi's Farm:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

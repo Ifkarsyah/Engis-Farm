@@ -47,6 +47,6 @@ public class Mixer extends Cell {
      */
     @Override
     public ImageIcon renderGUI(){
-        return new ImageIcon("img/Mixer.png");
+        return new ImageIcon(Mixer.class.getResource("/img/Mixer.png"));
     }
 }

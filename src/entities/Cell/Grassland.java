@@ -30,7 +30,7 @@ public class Grassland extends Land {
      */
     @Override
     public ImageIcon renderGUI() {
-        return (isGrassGrown ? new ImageIcon("img/Grassland-grass.png") :
-                new ImageIcon("img/Grassland.png"));
+        return (isGrassGrown ? new ImageIcon(Grassland.class.getResource("/img/Grassland-grass.png")) :
+                new ImageIcon(Grassland.class.getResource("/img/Grassland.png")));
     }
 }

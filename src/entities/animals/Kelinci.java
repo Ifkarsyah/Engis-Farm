@@ -52,9 +52,9 @@ public class Kelinci extends FarmAnimal {
     @Override
     public ImageIcon renderGUI(){
         if (hungryPoint > 5)
-            return new ImageIcon("img/Kelinci.png");
+            return new ImageIcon(Kelinci.class.getResource("/img/Kelinci.png"));
         else
-            return new ImageIcon("img/Kelinci-hungry.png");
+            return new ImageIcon(Kelinci.class.getResource("/img/Kelinci-hungry.png"));
     }
 
     public boolean isHabitat(char c){

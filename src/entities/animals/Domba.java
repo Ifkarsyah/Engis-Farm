@@ -54,9 +54,9 @@ public class Domba extends FarmAnimal {
     @Override
     public ImageIcon renderGUI(){
         if (hungryPoint > 5)
-            return new ImageIcon("img/Domba.png");
+            return new ImageIcon(Bebek.class.getResource("/img/Domba.png"));
         else
-            return new ImageIcon("img/Domba-hungry.png");
+            return new ImageIcon(Bebek.class.getResource("/img/Domba-hungry.png"));
     }
 
     public boolean isHabitat(char c){

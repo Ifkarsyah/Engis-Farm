@@ -178,6 +178,6 @@ public class PlayerModel extends Renderable {
      */
     @Override
     public ImageIcon renderGUI(){
-        return new ImageIcon("img/Player.png");
+        return new ImageIcon(PlayerModel.class.getResource("/img/Player.png"));
     }
 }

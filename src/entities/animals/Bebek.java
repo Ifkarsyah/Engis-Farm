@@ -68,9 +68,9 @@ public class Bebek extends FarmAnimal {
     @Override
     public ImageIcon renderGUI(){
         if (hungryPoint > 5)
-            return new ImageIcon("img/Bebek.png");
+            return new ImageIcon(Bebek.class.getResource("/img/Bebek.png"));
         else
-            return new ImageIcon("img/Bebek-hungry.png");
+            return new ImageIcon(Bebek.class.getResource("/img/Bebek-hungry.png"));
     }
 
     public boolean isHabitat(char c){

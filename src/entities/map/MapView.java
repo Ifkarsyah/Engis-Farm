@@ -99,7 +99,7 @@ public class MapView extends JPanel {
             JDialog jDialog = new JDialog();
             jDialog.setTitle("Game Over");
             JButton gameOver = new JButton();
-            gameOver.setIcon(new ImageIcon("img/GameOver.png"));
+            gameOver.setIcon(new ImageIcon(MapView.class.getResource("/img/GameOver.png")));
             jDialog.add(gameOver);
             jDialog.setSize(500, 500);
             jDialog.setLocationRelativeTo(null);

@@ -66,9 +66,9 @@ public class Sapi extends FarmAnimal {
     @Override
     public ImageIcon renderGUI() {
         if (hungryPoint > 5)
-            return new ImageIcon("img/Sapi.png");
+            return new ImageIcon(Sapi.class.getResource("/img/Sapi.png"));
         else
-            return new ImageIcon("img/Sapi-hungry.png");
+            return new ImageIcon(Sapi.class.getResource("/img/Sapi-hungry.png"));
     }
 
     public boolean isHabitat(char c){

@@ -62,9 +62,9 @@ public class Unta extends FarmAnimal {
     @Override
     public ImageIcon renderGUI() {
         if (hungryPoint > 5)
-            return new ImageIcon("img/Unta.png");
+            return new ImageIcon(Unta.class.getResource("/img/Unta.png"));
         else
-            return new ImageIcon("img/Unta-hungry.png");
+            return new ImageIcon(Unta.class.getResource("/img/Unta-hungry.png"));
     }
 
     public boolean isHabitat(char c){

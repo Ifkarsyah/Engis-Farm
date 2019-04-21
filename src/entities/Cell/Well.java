@@ -33,6 +33,6 @@ public class Well extends Cell {
      */
     @Override
     public ImageIcon renderGUI(){
-        return new ImageIcon("img/Well.png");
+        return new ImageIcon(Well.class.getResource("/img/Well.png"));
     }
 }
