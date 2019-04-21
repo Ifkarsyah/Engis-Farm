@@ -6,132 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c9d7a0f-7219-4b9d-adef-6183dbd9808e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/Ayam-hungry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Ayam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Barn-grass.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Barn-grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Barn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Bebek-hungry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Bebek.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Burger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Coop-grass.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Coop-grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Coop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/DagingAyam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/DagingBebek.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/DagingDomba.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/DagingKelinci.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/DagingSapi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/DagingUnta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Domba-hungry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Domba.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/GameOver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Grassland-grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Grassland.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Kelinci-hungry.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Kelinci-hungry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Kelinci.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Mixer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Sapi-hungry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Sapi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Sate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Susu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/SusuSapi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/SusuUnta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Telur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/TelurAyam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/TelurBebek.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Truck.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Unta-hungry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Unta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Well.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/bucket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/fence-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/fence-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/fence.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/hay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/startmenu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/UI/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/UI/Launcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/UI/StartMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/UI/StartMenu$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/UI/StartMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/UI/StartMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Barn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Barn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/BarnTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/BarnTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Coop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Coop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/CoopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/CoopTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Grassland.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Grassland.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/GrasslandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/GrasslandTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Mixer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Mixer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/MixerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/MixerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Truck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Truck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/TruckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/TruckTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Well.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Well.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/WellTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/WellTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Renderable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Renderable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Ayam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Ayam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Bebek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Bebek.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Domba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Domba.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Kelinci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Kelinci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Sapi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Sapi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Unta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Unta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapControllerCLI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapControllerCLI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerViewAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerViewAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerViewInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/player/PlayerViewInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Burger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Burger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/BurgerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/BurgerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingAyam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingAyam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingAyamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingAyamTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingBebek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingBebek.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingBebekTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingBebekTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingDomba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingDomba.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingDombaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingDombaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingKelinci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingKelinci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingKelinciTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingKelinciTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingSapi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingSapi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingSapiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingSapiTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingUnta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingUnta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingUntaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/DagingUntaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Keju.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Keju.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/KejuTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/KejuTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Sate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Sate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/SateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/SateTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/SideProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/SideProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/SusuSapi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/SusuSapi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/SusuUnta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/SusuUnta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/TelurAyam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/TelurAyam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/TelurAyamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/TelurAyamTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/TelurBebek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/TelurBebek.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/TelurBebekTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/TelurBebekTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/meta/Assets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/meta/Assets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/StartMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Cell/Barn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cell/Barn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Cell/Coop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cell/Coop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Cell/Grassland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cell/Grassland.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Cell/Mixer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cell/Mixer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Cell/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cell/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Cell/Well.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cell/Well.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/animals/Ayam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/animals/Ayam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/animals/Bebek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/animals/Bebek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/animals/Domba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/animals/Domba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/animals/Kelinci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/animals/Kelinci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/animals/Sapi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/animals/Sapi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/animals/Unta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/animals/Unta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/map/MapView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/map/MapView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/player/PlayerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/player/PlayerModel.java" afterDir="false" />
-    </list>
+    <list default="true" id="8c9d7a0f-7219-4b9d-adef-6183dbd9808e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UI/StartMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
+            <state relative-caret-position="227">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -175,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/entities/Cell/Barn.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="34" column="79" lean-forward="true" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
+              <caret line="34" column="79" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -220,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/src/entities/animals/Bebek.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="72" column="81" lean-forward="true" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="81" />
+              <caret line="72" column="81" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -567,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555820547553</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="change path">
+      <created>1555824221590</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1555824221590</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -579,7 +461,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31362000" />
+    <option name="totallyTimeSpent" value="31568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -594,7 +476,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39576548" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39576548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -621,6 +503,8 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add icon" />
     <MESSAGE value="rename icon" />
     <MESSAGE value="add land with and without grass" />
@@ -633,7 +517,8 @@
     <MESSAGE value="make can have two habitat" />
     <MESSAGE value="fix doc" />
     <MESSAGE value="fix bug player overwrite animals" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bug player overwrite animals" />
+    <MESSAGE value="change path" />
+    <option name="LAST_COMMIT_MESSAGE" value="change path" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/Ayam-hungry.png">
@@ -1252,7 +1137,7 @@
     <entry file="file://$PROJECT_DIR$/src/entities/Cell/Barn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="34" column="79" lean-forward="true" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
+          <caret line="34" column="79" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -1287,7 +1172,7 @@
     <entry file="file://$PROJECT_DIR$/src/entities/animals/Bebek.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="72" column="81" lean-forward="true" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="81" />
+          <caret line="72" column="81" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1303,8 +1188,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/StartMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
+        <state relative-caret-position="227">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
         </state>
       </provider>
     </entry>
