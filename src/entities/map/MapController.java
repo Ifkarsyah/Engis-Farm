@@ -35,6 +35,7 @@ public class MapController {
                     @Override
                     public void keyPressed(KeyEvent keyEvent) {
                         int keyCode = keyEvent.getKeyCode();
+//                        mapView.updateMap();
                         switch (keyCode) {
                             case KeyEvent.VK_LEFT:
                                 mapModel.playerMove(0, -1);

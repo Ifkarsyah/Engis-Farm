@@ -142,6 +142,7 @@ public class MapModel {
         while (it.hasNext()) {
             Map.Entry e = (Map.Entry) it.next();
             Point point = (Point) e.getKey();
+            Point playerPoint = new Point(playerModel.getPoint());
             FarmAnimal farmAnimal = (FarmAnimal) e.getValue();
 
             int r = ThreadLocalRandom.current().nextInt(4);
@@ -149,6 +150,7 @@ public class MapModel {
 
             if (isEmptyCell(targetPoint)
                     && !tempAnimals.containsKey(targetPoint)
+                    && playerPoint.x != targetPoint.x && playerPoint.y != targetPoint.y
                     && mapAnimals.get(point).isHabitat(mapLands.get(targetPoint).render())) {
                 tempAnimals.put(targetPoint, farmAnimal);
                 it.remove();
