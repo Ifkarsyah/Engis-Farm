@@ -60,11 +60,15 @@ public class MapModel {
 
     private void initMapAnimals() {
         mapAnimals.put(new Point(0, 0), new Ayam("gracia"));
+        mapAnimals.put(new Point(0, 1), new Ayam("pablo"));
         mapAnimals.put(new Point(0, 2), new Bebek("esmeralda"));
         mapAnimals.put(new Point(5, 5), new Domba("antonio"));
         mapAnimals.put(new Point(0, 5), new Kelinci("fernando"));
+        mapAnimals.put(new Point(2, 5), new Kelinci("dolores"));
         mapAnimals.put(new Point(8, 8), new Sapi("ramos"));
+        mapAnimals.put(new Point(8, 3), new Sapi("hernanes"));
         mapAnimals.put(new Point(9, 9), new Unta("andreas"));
+        mapAnimals.put(new Point(7, 5), new Unta("dominique"));
     }
 
     @Override

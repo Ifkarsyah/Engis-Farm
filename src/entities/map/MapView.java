@@ -33,7 +33,6 @@ public class MapView extends JPanel {
                 Point currentPoint = new Point(i, j);
                 map[i][j] = new JButton();
                 setIconCurrentPoint(i, j, currentPoint);
-
                 add(map[i][j]);
             }
         }
