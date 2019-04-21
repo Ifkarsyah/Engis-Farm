@@ -36,10 +36,14 @@ public class Truck extends Cell {
     }
 
     /**
+     * @return int sisa waktu cooldown dari Truck
+     * */
+    public int getCoolDownTime() {return cooldownTime;}
+
+    /**
      * Override fungsi render
      * @return char
      */
-
     @Override
     public char render() {
         return 'T';

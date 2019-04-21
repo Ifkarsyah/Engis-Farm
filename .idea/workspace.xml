@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c9d7a0f-7219-4b9d-adef-6183dbd9808e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/entities/product/BurgerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/product/DagingAyamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/product/DagingBebekTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/product/DagingDombaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/product/DagingKelinciTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/product/DagingSapiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/product/DagingUntaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/product/KejuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/product/SateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/product/TelurAyamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/product/TelurBebekTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Cell/BarnTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Cell/CoopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Cell/GrasslandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Cell/MixerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Cell/TruckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Cell/WellTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Sapi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/animals/Sapi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/map/MapView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/product/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/product/SideProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/product/SideProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Truck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Engi's Farm/entities/Cell/Truck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Cell/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Cell/Truck.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,36 +24,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/product/TelurAyam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/product/TelurBebek.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/entities/product/TelurBebekTest.java">
+        <entry file="file://$PROJECT_DIR$/src/entities/Cell/MixerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="513">
+              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entities/Cell/Mixer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-19">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -96,9 +74,7 @@
         <option value="$PROJECT_DIR$/src/meta/Assets.java" />
         <option value="$PROJECT_DIR$/src/tests/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/entities/Renderable.java" />
-        <option value="$PROJECT_DIR$/src/entities/Cell/Truck.java" />
         <option value="$PROJECT_DIR$/src/entities/Cell/Mixer.java" />
-        <option value="$PROJECT_DIR$/src/entities/Cell/Well.java" />
         <option value="$PROJECT_DIR$/src/entities/player/PlayerModel.java" />
         <option value="$PROJECT_DIR$/src/entities/Cell/Barn.java" />
         <option value="$PROJECT_DIR$/src/entities/Cell/Coop.java" />
@@ -117,7 +93,6 @@
         <option value="$PROJECT_DIR$/src/entities/animals/Sapi.java" />
         <option value="$PROJECT_DIR$/src/entities/map/MapView.java" />
         <option value="$PROJECT_DIR$/src/entities/map/MapModel.java" />
-        <option value="$PROJECT_DIR$/src/entities/product/Product.java" />
         <option value="$PROJECT_DIR$/src/entities/product/SideProduct.java" />
         <option value="$PROJECT_DIR$/src/entities/product/BurgerTest.java" />
         <option value="$PROJECT_DIR$/src/entities/product/SateTest.java" />
@@ -130,6 +105,16 @@
         <option value="$PROJECT_DIR$/src/entities/product/DagingUntaTest.java" />
         <option value="$PROJECT_DIR$/src/entities/product/TelurAyamTest.java" />
         <option value="$PROJECT_DIR$/src/entities/product/TelurBebekTest.java" />
+        <option value="$PROJECT_DIR$/src/entities/product/Product.java" />
+        <option value="$PROJECT_DIR$/src/entities/product/ProductTest.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/BarnTest.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/CoopTest.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/GrasslandTest.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/Well.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/WellTest.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/Truck.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/TruckTest.java" />
+        <option value="$PROJECT_DIR$/src/entities/Cell/MixerTest.java" />
       </list>
     </option>
   </component>
@@ -164,13 +149,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Engis-Farm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Engis-Farm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -188,7 +166,6 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -198,6 +175,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="entities.Cell" />
       <recent name="entities.product" />
       <recent name="entities.animals" />
     </key>
@@ -217,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TelurBebekTest">
+  <component name="RunManager" selected="JUnit.MixerTest">
     <configuration name="START" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="UI.StartMenu" />
       <module name="Engi's Farm" />
@@ -236,78 +214,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DagingKelinciTest.toString1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CoopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Engi's Farm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="entities.product.*" />
+          <option name="PATTERN" value="entities.Cell.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="entities.product" />
-      <option name="MAIN_CLASS_NAME" value="entities.product.DagingKelinciTest" />
-      <option name="METHOD_NAME" value="toString1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DagingSapiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Engi's Farm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="entities.product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="entities.product" />
-      <option name="MAIN_CLASS_NAME" value="entities.product.DagingSapiTest" />
+      <option name="PACKAGE_NAME" value="entities.Cell" />
+      <option name="MAIN_CLASS_NAME" value="entities.Cell.CoopTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DagingUntaTest.toString1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GrasslandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Engi's Farm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="entities.product.*" />
+          <option name="PATTERN" value="entities.Cell.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="entities.product" />
-      <option name="MAIN_CLASS_NAME" value="entities.product.DagingUntaTest" />
-      <option name="METHOD_NAME" value="toString1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TelurAyamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Engi's Farm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="entities.product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="entities.product" />
-      <option name="MAIN_CLASS_NAME" value="entities.product.TelurAyamTest" />
+      <option name="PACKAGE_NAME" value="entities.Cell" />
+      <option name="MAIN_CLASS_NAME" value="entities.Cell.GrasslandTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelurBebekTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MixerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Engi's Farm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="entities.product.*" />
+          <option name="PATTERN" value="entities.Cell.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="entities.product" />
-      <option name="MAIN_CLASS_NAME" value="entities.product.TelurBebekTest" />
+      <option name="PACKAGE_NAME" value="entities.Cell" />
+      <option name="MAIN_CLASS_NAME" value="entities.Cell.MixerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TruckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Engi's Farm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="entities.Cell.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="entities.Cell" />
+      <option name="MAIN_CLASS_NAME" value="entities.Cell.TruckTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WellTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Engi's Farm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="entities.Cell.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="entities.Cell" />
+      <option name="MAIN_CLASS_NAME" value="entities.Cell.WellTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -335,19 +311,19 @@
       <item itemvalue="Application.START" />
       <item itemvalue="JUnit.Ayam" />
       <item itemvalue="JUnit.entities in Engi's Farm" />
-      <item itemvalue="JUnit.DagingKelinciTest.toString1" />
-      <item itemvalue="JUnit.DagingSapiTest" />
-      <item itemvalue="JUnit.DagingUntaTest.toString1" />
-      <item itemvalue="JUnit.TelurAyamTest" />
-      <item itemvalue="JUnit.TelurBebekTest" />
+      <item itemvalue="JUnit.CoopTest" />
+      <item itemvalue="JUnit.GrasslandTest" />
+      <item itemvalue="JUnit.WellTest" />
+      <item itemvalue="JUnit.TruckTest" />
+      <item itemvalue="JUnit.MixerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TelurBebekTest" />
-        <item itemvalue="JUnit.TelurAyamTest" />
-        <item itemvalue="JUnit.DagingUntaTest.toString1" />
-        <item itemvalue="JUnit.DagingSapiTest" />
-        <item itemvalue="JUnit.DagingKelinciTest.toString1" />
+        <item itemvalue="JUnit.MixerTest" />
+        <item itemvalue="JUnit.TruckTest" />
+        <item itemvalue="JUnit.WellTest" />
+        <item itemvalue="JUnit.GrasslandTest" />
+        <item itemvalue="JUnit.CoopTest" />
       </list>
     </recent_temporary>
   </component>
@@ -422,39 +398,46 @@
       <option name="project" value="LOCAL" />
       <updated>1555808024409</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add product test">
+      <created>1555814742711</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555814742711</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KejuTest - 2019.04.21 at 09h 29m 23s.xml">
-      <configuration name="KejuTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SateTest_testBurger - 2019.04.21 at 09h 32m 01s.xml">
-      <configuration name="SateTest.testBurger" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DagingAyamTest - 2019.04.21 at 09h 36m 16s.xml">
-      <configuration name="DagingAyamTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DagingBebekTest_toString1 - 2019.04.21 at 09h 37m 14s.xml">
-      <configuration name="DagingBebekTest.toString1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DagingDombaTest - 2019.04.21 at 09h 38m 12s.xml">
-      <configuration name="DagingDombaTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DagingKelinciTest_toString1 - 2019.04.21 at 09h 39m 12s.xml">
-      <configuration name="DagingKelinciTest.toString1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DagingSapiTest - 2019.04.21 at 09h 40m 09s.xml">
-      <configuration name="DagingSapiTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DagingSapiTest - 2019.04.21 at 09h 40m 38s.xml">
-      <configuration name="DagingSapiTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DagingUntaTest_toString1 - 2019.04.21 at 09h 41m 35s.xml">
-      <configuration name="DagingUntaTest.toString1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TelurAyamTest - 2019.04.21 at 09h 43m 22s.xml">
       <configuration name="TelurAyamTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TelurBebekTest - 2019.04.21 at 09h 44m 20s.xml">
+      <configuration name="TelurBebekTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarnTest_testRenderGUIGrown - 2019.04.21 at 09h 59m 03s.xml">
+      <configuration name="BarnTest.testRenderGUIGrown" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarnTest - 2019.04.21 at 09h 59m 20s.xml">
+      <configuration name="BarnTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarnTest - 2019.04.21 at 10h 00m 01s.xml">
+      <configuration name="BarnTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoopTest - 2019.04.21 at 10h 02m 10s.xml">
+      <configuration name="CoopTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GrasslandTest - 2019.04.21 at 10h 04m 33s.xml">
+      <configuration name="GrasslandTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WellTest - 2019.04.21 at 10h 11m 34s.xml">
+      <configuration name="WellTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WellTest - 2019.04.21 at 10h 12m 17s.xml">
+      <configuration name="WellTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TruckTest - 2019.04.21 at 10h 16m 40s.xml">
+      <configuration name="TruckTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -478,10 +461,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32733223" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32569557" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32899022" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32733223" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32569557" />
       <window_info anchor="bottom" id="Duplicates" order="11" weight="0.32899022" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -540,7 +523,8 @@
     <MESSAGE value="differentiate between hungry and not" />
     <MESSAGE value="add sample junit" />
     <MESSAGE value="add image hungry" />
-    <option name="LAST_COMMIT_MESSAGE" value="add image hungry" />
+    <MESSAGE value="add product test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add product test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -555,98 +539,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Coop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Grassland.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/Well.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Well.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/player/PlayerViewAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/MenuState.java" />
-    <entry file="file://$PROJECT_DIR$/src/game/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/animals/Unta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/animals/Kelinci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/animals/Domba.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/StartMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/animals/FarmAnimal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1365">
@@ -718,20 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Land.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/map/MapModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -750,20 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/product/BurgerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/product/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/product/SideProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -775,13 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/product/Burger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -925,24 +782,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/product/TelurAyamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="7" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/product/TelurAyam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/product/TelurAyamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -955,14 +808,153 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/product/TelurBebekTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#213#214#0" expanded="true" />
             <element signature="e#260#261#0" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
             <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/product/ProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/product/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Coop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/BarnTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Land.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Barn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="28" column="65" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/CoopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Grassland.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Well.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="32" column="43" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="32" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/GrasslandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Truck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/TruckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/WellTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/product/BurgerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/product/Burger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/Mixer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entities/Cell/MixerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
