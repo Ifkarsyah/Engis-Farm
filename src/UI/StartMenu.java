@@ -15,7 +15,7 @@ public class StartMenu extends JFrame {
     }
 
     public StartMenu(){
-        setTitle("Old Frame");
+        setTitle("Start Menu");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setBounds(100, 100, 450, 300);
         JButton btn = new JButton("New");
